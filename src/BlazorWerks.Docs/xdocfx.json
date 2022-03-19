@@ -3,9 +3,7 @@
     {
       "src": [
         {
-          "files": [
-            "**\\BlazorWerks.csproj"
-          ],
+          "files": [ "**BlazorWerks.csproj" ],
           "src": "..\\"
         }
       ],
@@ -20,15 +18,17 @@
         "files": [
           "api/**.yml",
           "api/index.md"
-        ]
+        ],
+        "src": "BlazorWerks.Docs"
       },
       {
         "files": [
           "articles/**.md",
-          "articles/**/toc.yml",
+          "articles/**/ toc.yml",
           "toc.yml",
           "*.md"
-        ]
+        ],
+        "src": "BlazorWerks.Docs"
       }
     ],
     "resource": [
@@ -45,16 +45,14 @@
         ],
         "exclude": [
           "obj/**",
-          "_site/**"
+          "bin/**"
         ]
       }
     ],
     "dest": "..\\..\\docs",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "template": [
-      "default"
-    ],
+    "template": [ "statictoc" ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
