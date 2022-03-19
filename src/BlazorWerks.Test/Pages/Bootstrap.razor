@@ -1,0 +1,105 @@
+﻿@page "/Bootstrap"
+
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@using BlazorWerks.Bootstrap
+@inject IBootstrap bs
+
+
+@code {
+
+    ElementReference MyModal;
+
+    ElementReference[] MyAlert = new ElementReference[2];
+
+
+    JsonSerializerOptions Options = new JsonSerializerOptions(JsonSerializerDefaults.Web)
+        {
+            //WriteIndented = true,
+            DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingDefault
+        };
+
+    string EventLog = "";
+
+    void LogEvent(BootstrapEventArgs e)
+    {
+        EventLog = JsonSerializer.Serialize(e, Options) + "\n" + EventLog;
+    }
+
+
+
+}
+
+
+<PageTitle>Bootstrap</PageTitle>
+
+<div class="list-group">
+    <div class="list-group-item active">
+        <h3>Bootstrap Tests</h3>
+    </div>
+    <div class="list-group-item">
+        <h3>Modal</h3>
+        <div class="dropdown">
+            <a class="btn btn-primary dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Modal Show
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#exampleModal">Data Toggle Attribute</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)" @onclick=@(()=> bs.Modal(MyModal).Toggle())>BlazorTools ElementReference</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)" @onclick=@(()=> bs.Modal("#exampleModal").Toggle())>BlazorTools CSS Selector</a></li>
+                <li><a class="dropdown-item" href="javascript:void(0)" @onclick=@(()=> MyModal.Modal().Toggle())>BlazorTools Delegate</a></li>
+            </ul>
+        </div>
+        <!-- Modal -->
+        <div @ref=MyModal @onbootstrap=@((e)=> LogEvent(e)) class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal Test</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>PASS - The modal is working normally.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary" @onclick=@(()=> MyModal.Modal().Hide())>Hide</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="list-group-item">
+        <h3>Alert</h3>
+        <div @onbootstrap=@((e)=> LogEvent(e))>
+            <div class="alert alert-info alert-dismissible fade show" role="alert">
+                Close using a a data attribute
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <div @ref=MyAlert[0] class="alert alert-success alert-dismissible fade show" role="alert">
+                <a class="btn btn-success" href="javascript:void(0)" @onclick=@(()=> bs.Alert(MyAlert[0]).Close())>Test</a>
+                Close with BlazorTools using an ElementReference: 
+            </div>
+            <div id="alert-2" class="alert alert-warning alert-dismissible fade show" role="alert">
+                <a class="btn btn-warning" href="javascript:void(0)" @onclick=@(()=> bs.Alert("#alert-2").Close())>Test</a>
+                Closed with BlazorTools using a css selector:
+            </div>
+            <div @ref=MyAlert[1] class="alert alert-danger alert-dismissible fade show" role="alert">
+                <a class="btn btn-danger" href="javascript:void(0)" @onclick=@(()=> MyAlert[1].Alert().Close())>Test</a>
+                Close with BlazorTools using an ElementReference delegate:
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="list-group-item">
+        <h4>Event Log</h4>
+        <textarea class="form-control border my-2 p-2" rows="10">
+        @EventLog
+    </textarea>
+    </div>
+
+</div>

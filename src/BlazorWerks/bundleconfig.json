@@ -1,0 +1,18 @@
+/* 
+  Leave sourceMap = false as causes build errors and fails to minify when enabled. 
+  see: https://github.com/madskristensen/BundlerMinifier/issues
+*/
+[
+  {
+    "outputFileName": "wwwroot/bt.bundle.js",
+    "inputFiles": [
+      "Scripts/bt-bootstrap.js",
+      "Scripts/bt-webstorage.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  }
+]

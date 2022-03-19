@@ -1,0 +1,220 @@
+﻿@page "/Storage"
+@layout MainLayout
+
+@using Newtonsoft.Json
+@using BlazorWerks.WebStorage
+@inject ILocalStorage localStorage
+@inject ISessionStorage sessionStorage
+
+
+@code {
+
+    public class TestClass
+    {
+        public string? String { get; set; }
+        public DateTime Date { get; set; } 
+        public int Number { get; set; } = 100;
+        public List<object> List { get; set; } 
+        public int[] Array { get; set; } 
+        public object Anonymous { get; set; }
+        public dynamic Dynamic { get; set; } 
+    }
+
+    async ValueTask SetLocal()
+    {
+        await localStorage.SetItem("string", "Hello World");
+        await localStorage.SetItem("number", 100);
+        await localStorage.SetItem("date", DateTime.Now);
+        await localStorage.SetItem("class", new TestClass()
+        {
+            String = "Hello World",
+            Date = DateTime.Now,
+            Number = 200,
+            Anonymous = new {chickens = 1, cows = 2, horses = 3},
+            List =  new List<object> { "hello", 100, 3.12, DateTime.Now },
+            Array = new int[] { 1, 2, 3, 4, 5 },
+            Dynamic = new { apples = "red", grapes = "green", oranges = "orange" }
+        });
+
+        var length = await localStorage.LengthAsync();
+
+        if (length >= 4) {
+            print("OK - Four items saved to storage");
+            print("LENGTH: " + length);
+            var keys = await localStorage.KeysAsync();
+            print("KEYS: " + String.Join(", ", keys));
+        }
+        else print("Failed to save items to storage");
+    }
+
+    async ValueTask GetLocal()
+    {
+        var p = await localStorage.GetItemAsync<TestClass>("class");
+
+        if (p != null || p.String == "Hello World") 
+        {
+            print("OK - Read an item from storage.");
+            print("JSON: " + JsonConvert.SerializeObject(p));
+        }
+        else print("Failed to read item from strorage");
+
+    }
+    async ValueTask RemoveLocal()
+    {
+        await localStorage.RemoveItem("number");
+
+        var value = await localStorage.GetItemAsync<int>("number", -1);
+
+        if (value != -1)  print("Failed to remove item from storage: " + value);
+        else print("OK - Single item removed from storage");
+
+    }
+    async ValueTask ClearLocal()
+    {
+        await localStorage.Clear();
+
+        var count = await localStorage.LengthAsync();
+
+        if (count == 0) print("OK - all items in storage cleared");
+        else print("Failed to clear storage");
+
+    }
+
+    async ValueTask TestLocal()
+    {
+        Log = "LocalStorage Test\n";
+
+        await ClearLocal();
+
+        await SetLocal();
+
+        await GetLocal();
+
+        await RemoveLocal();
+
+        await ClearLocal();
+
+    }
+    /////////
+    /// <summary>
+    /// 
+
+    /// </summary>
+
+    async ValueTask SetSession()
+    {
+        await sessionStorage.SetItem("string", "Hello World");
+        await sessionStorage.SetItem("number", 100);
+        await sessionStorage.SetItem("date", DateTime.Now);
+        await sessionStorage.SetItem("class", new TestClass()
+        {
+            String = "Hello World",
+            Date = DateTime.Now,
+            Number = 200,
+            Anonymous = new {chickens = 1, cows = 2, horses = 3},
+            List =  new List<object> { "hello", 100, 3.12, DateTime.Now },
+            Array = new int[] { 1, 2, 3, 4, 5 },
+            Dynamic = new { apples = "red", grapes = "green", oranges = "orange" }
+        });
+
+        var length = await sessionStorage.LengthAsync();
+
+        if (length >= 4) {
+            print("OK - Four items saved to storage");
+            print("LENGTH: " + length);
+            var keys = await sessionStorage.KeysAsync();
+            print("KEYS: " + String.Join(", ", keys));
+        }
+        else print("Failed to save items to storage");
+
+    }
+
+    async ValueTask GetSession()
+    {
+        var p = await sessionStorage.GetItemAsync<TestClass>("class");
+
+        if (p != null || p.String == "Hello World") 
+        {
+            print("OK - Read an item from storage.");
+            print("JSON: " + JsonConvert.SerializeObject(p));
+        }
+        else print("Failed to read item from strorage");
+
+    }
+    async ValueTask RemoveSession()
+    {
+        await sessionStorage.RemoveItem("number");
+
+        var value = await sessionStorage.GetItemAsync<int>("number", -1);
+
+        if (value != -1)  print("Failed to remove item from storage: " + value);
+        else print("OK - Single item removed from storage");
+
+    }
+    async ValueTask ClearSession()
+    {
+        await sessionStorage.Clear();
+
+        var count = await sessionStorage.LengthAsync();
+
+        if (count == 0) print("OK - all items in storage cleared");
+        else print("Failed to clear storage");
+
+    }
+
+    async ValueTask TestSession()
+    {
+        Log = "SessionStorage Test\n";
+
+        await ClearSession();
+
+        await SetSession();
+
+        await GetSession();
+
+        await RemoveSession();
+
+        await ClearSession();
+
+    }
+
+
+
+    string Log = "";
+
+    void print(string text)
+    {
+        Log = Log + text + "\n";
+        StateHasChanged();
+    }
+
+
+}
+
+<PageTitle>Page Title</PageTitle>
+
+<div class="my-2 p-2 border">
+    <h4>LocalStorage</h4>
+    <button class="btn btn-primary" @onclick=@(()=>_=SetLocal())>Set</button>
+    <button class="btn btn-primary" @onclick=@(()=>_=GetLocal())>Get</button>
+    <button class="btn btn-primary" @onclick=@(()=>_=RemoveLocal())>Remove</button>
+    <button class="btn btn-primary"  @onclick=@(()=> _=ClearLocal())>Clear</button>
+    <button class="btn btn-primary" @onclick=@(()=>_=TestLocal())>Test</button>
+</div>
+
+<div class="my-2 p-2 border">
+    <h4>SessionStorage</h4>
+    <button class="btn btn-primary" @onclick=@(()=>_=SetSession())>Set</button>
+    <button class="btn btn-primary" @onclick=@(()=>_=GetSession())>Get</button>
+    <button class="btn btn-primary" @onclick=@(()=>_=RemoveSession())>Remove</button>
+    <button class="btn btn-primary"  @onclick=@(()=> _=ClearSession())>Clear</button>
+    <button class="btn btn-primary" @onclick=@(()=>_=TestSession())>Test</button>
+</div>
+
+<textarea class="form-control border p-2 my-2" rows="20" @bind=@Log>
+</textarea>
+
+
+
+
+
