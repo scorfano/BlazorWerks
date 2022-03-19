@@ -3,17 +3,17 @@ namespace BlazorWerks.Bootstrap
 {
     public interface IBootstrap
     {
-        BsAlert Alert(object target, object options = null);
+        BsAlert Alert(object target);
 
-        BsButton Button(object target, object options = null);
+        BsButton Button(object target);
 
-        BsCarousel Carousel(object target, object options = null);
+        BsCarousel Carousel(object target, BsCarouselOptions options = null);
 
-        BsCollapse Collapse(object target, object options = null);
+        BsCollapse Collapse(object target, BsCollapseOptions options = null);
 
-        BsDropdown Dropdown(object target, object options = null);
+        BsDropdown Dropdown(object target, BsDropdownOptions options = null);
 
-        BsModal Modal(object target, object options = null);
+        BsModal Modal(object target, BsModalOptions options = null);
 
         BsOffcanvas Offcanvas(object target, object options = null);
 

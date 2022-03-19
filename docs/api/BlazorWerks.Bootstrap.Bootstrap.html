@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
     
     
     
@@ -46,7 +46,15 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-            </div>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/intro.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="Api Documentation">Api Documentation</a>
+                      </li>
+                </ul>    </div>
           </div>
         </nav>
         
@@ -59,11 +67,137 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="BlazorWerks.html" title="BlazorWerks" class="">BlazorWerks</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="BlazorWerks.Toolbox.html" title="Toolbox" class="">Toolbox</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="BlazorWerks.Bootstrap.html" title="BlazorWerks.Bootstrap" class="">BlazorWerks.Bootstrap</a>
+                        
+                        <ul class="nav level2">
+                          <li class="active">
+                            <a href="BlazorWerks.Bootstrap.Bootstrap.html" title="Bootstrap" class="active">Bootstrap</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BootstrapEventArgs.html" title="BootstrapEventArgs" class="">BootstrapEventArgs</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BootstrapEvents.html" title="BootstrapEvents" class="">BootstrapEvents</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsAlert.html" title="BsAlert" class="">BsAlert</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsButton.html" title="BsButton" class="">BsButton</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsCarousel.html" title="BsCarousel" class="">BsCarousel</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsCarouselOptions.html" title="BsCarouselOptions" class="">BsCarouselOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsCollapse.html" title="BsCollapse" class="">BsCollapse</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsCollapseOptions.html" title="BsCollapseOptions" class="">BsCollapseOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsComponent.html" title="BsComponent" class="">BsComponent</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsDropdown.html" title="BsDropdown" class="">BsDropdown</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsDropdownOptions.html" title="BsDropdownOptions" class="">BsDropdownOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsModal.html" title="BsModal" class="">BsModal</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsModalOptions.html" title="BsModalOptions" class="">BsModalOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsOffcanvas.html" title="BsOffcanvas" class="">BsOffcanvas</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsPopover.html" title="BsPopover" class="">BsPopover</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsScrollSpy.html" title="BsScrollSpy" class="">BsScrollSpy</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsTab.html" title="BsTab" class="">BsTab</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsToast.html" title="BsToast" class="">BsToast</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsTooltip.html" title="BsTooltip" class="">BsTooltip</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.ElementReferenceExtensions.html" title="ElementReferenceExtensions" class="">ElementReferenceExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.EventHandlers.html" title="EventHandlers" class="">EventHandlers</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.IBootstrap.html" title="IBootstrap" class="">IBootstrap</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.ServiceCollectionExtensions.html" title="ServiceCollectionExtensions" class="">ServiceCollectionExtensions</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="BlazorWerks.WebStorage.html" title="BlazorWerks.WebStorage" class="">BlazorWerks.WebStorage</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="BlazorWerks.WebStorage.EventHandlers.html" title="EventHandlers" class="">EventHandlers</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.WebStorage.ILocalStorage.html" title="ILocalStorage" class="">ILocalStorage</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.WebStorage.ISessionStorage.html" title="ISessionStorage" class="">ISessionStorage</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.WebStorage.LocalStorage.html" title="LocalStorage" class="">LocalStorage</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.WebStorage.ServiceCollectionExtensions.html" title="ServiceCollectionExtensions" class="">ServiceCollectionExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.WebStorage.SessionStorage.html" title="SessionStorage" class="">SessionStorage</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.WebStorage.StorageEventArgs.html" title="StorageEventArgs" class="">StorageEventArgs</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="article row grid-right">
@@ -200,19 +334,18 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Alert_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Alert(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Alert_System_Object_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Alert(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L148">View Source</a>
+    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L59">View Source</a>
   </span>
   <a id="BlazorWerks_Bootstrap_Bootstrap_Alert_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Alert*"></a>
-  <h4 id="BlazorWerks_Bootstrap_Bootstrap_Alert_System_Object_System_Object_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Alert(System.Object,System.Object)">Alert(Object, Object)</h4>
-  <div class="markdown level1 summary"><p>Gets or creates a Bootstrap compoent associated with the document target element</p>
-</div>
+  <h4 id="BlazorWerks_Bootstrap_Bootstrap_Alert_System_Object_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Alert(System.Object)">Alert(Object)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BsAlert Alert(object target, object options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public BsAlert Alert(object target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -227,14 +360,7 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">target</span></td>
-        <td><p>An ElementReference or css selector string</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">options</span></td>
-        <td><p>An anonymous object of component options</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -249,26 +375,24 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="BlazorWerks.Bootstrap.BsAlert.html">BsAlert</a></td>
-        <td><p>Bootstrap component</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Button_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Button(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Button_System_Object_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Button(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L157">View Source</a>
+    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L61">View Source</a>
   </span>
   <a id="BlazorWerks_Bootstrap_Bootstrap_Button_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Button*"></a>
-  <h4 id="BlazorWerks_Bootstrap_Bootstrap_Button_System_Object_System_Object_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Button(System.Object,System.Object)">Button(Object, Object)</h4>
-  <div class="markdown level1 summary"><p>Gets or creates a Bootstrap compoent associated with the document target element</p>
-</div>
+  <h4 id="BlazorWerks_Bootstrap_Bootstrap_Button_System_Object_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Button(System.Object)">Button(Object)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BsButton Button(object target, object options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public BsButton Button(object target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -283,14 +407,7 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">target</span></td>
-        <td><p>An ElementReference or css selector string</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">options</span></td>
-        <td><p>An anonymous object of component options</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -305,26 +422,24 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="BlazorWerks.Bootstrap.BsButton.html">BsButton</a></td>
-        <td><p>Bootstrap component</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Carousel_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Carousel(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Carousel_System_Object_BlazorWerks_Bootstrap_BsCarouselOptions_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Carousel(System.Object%2CBlazorWerks.Bootstrap.BsCarouselOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L166">View Source</a>
+    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L63">View Source</a>
   </span>
   <a id="BlazorWerks_Bootstrap_Bootstrap_Carousel_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Carousel*"></a>
-  <h4 id="BlazorWerks_Bootstrap_Bootstrap_Carousel_System_Object_System_Object_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Carousel(System.Object,System.Object)">Carousel(Object, Object)</h4>
-  <div class="markdown level1 summary"><p>Gets or creates a Bootstrap compoent associated with the document target element</p>
-</div>
+  <h4 id="BlazorWerks_Bootstrap_Bootstrap_Carousel_System_Object_BlazorWerks_Bootstrap_BsCarouselOptions_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Carousel(System.Object,BlazorWerks.Bootstrap.BsCarouselOptions)">Carousel(Object, BsCarouselOptions)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BsCarousel Carousel(object target, object options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public BsCarousel Carousel(object target, BsCarouselOptions options = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -339,14 +454,12 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">target</span></td>
-        <td><p>An ElementReference or css selector string</p>
-</td>
+        <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><a class="xref" href="BlazorWerks.Bootstrap.BsCarouselOptions.html">BsCarouselOptions</a></td>
         <td><span class="parametername">options</span></td>
-        <td><p>An anonymous object of component options</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -361,26 +474,24 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="BlazorWerks.Bootstrap.BsCarousel.html">BsCarousel</a></td>
-        <td><p>Bootstrap component</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Collapse_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Collapse(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Collapse_System_Object_BlazorWerks_Bootstrap_BsCollapseOptions_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Collapse(System.Object%2CBlazorWerks.Bootstrap.BsCollapseOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L175">View Source</a>
+    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L65">View Source</a>
   </span>
   <a id="BlazorWerks_Bootstrap_Bootstrap_Collapse_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Collapse*"></a>
-  <h4 id="BlazorWerks_Bootstrap_Bootstrap_Collapse_System_Object_System_Object_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Collapse(System.Object,System.Object)">Collapse(Object, Object)</h4>
-  <div class="markdown level1 summary"><p>Gets or creates a Bootstrap compoent associated with the document target element</p>
-</div>
+  <h4 id="BlazorWerks_Bootstrap_Bootstrap_Collapse_System_Object_BlazorWerks_Bootstrap_BsCollapseOptions_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Collapse(System.Object,BlazorWerks.Bootstrap.BsCollapseOptions)">Collapse(Object, BsCollapseOptions)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BsCollapse Collapse(object target, object options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public BsCollapse Collapse(object target, BsCollapseOptions options = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -395,14 +506,12 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">target</span></td>
-        <td><p>An ElementReference or css selector string</p>
-</td>
+        <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><a class="xref" href="BlazorWerks.Bootstrap.BsCollapseOptions.html">BsCollapseOptions</a></td>
         <td><span class="parametername">options</span></td>
-        <td><p>An anonymous object of component options</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -417,26 +526,24 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="BlazorWerks.Bootstrap.BsCollapse.html">BsCollapse</a></td>
-        <td><p>Bootstrap component</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Dropdown_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Dropdown(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Dropdown_System_Object_BlazorWerks_Bootstrap_BsDropdownOptions_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Dropdown(System.Object%2CBlazorWerks.Bootstrap.BsDropdownOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L184">View Source</a>
+    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L67">View Source</a>
   </span>
   <a id="BlazorWerks_Bootstrap_Bootstrap_Dropdown_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Dropdown*"></a>
-  <h4 id="BlazorWerks_Bootstrap_Bootstrap_Dropdown_System_Object_System_Object_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Dropdown(System.Object,System.Object)">Dropdown(Object, Object)</h4>
-  <div class="markdown level1 summary"><p>Gets or creates a Bootstrap compoent associated with the document target element</p>
-</div>
+  <h4 id="BlazorWerks_Bootstrap_Bootstrap_Dropdown_System_Object_BlazorWerks_Bootstrap_BsDropdownOptions_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Dropdown(System.Object,BlazorWerks.Bootstrap.BsDropdownOptions)">Dropdown(Object, BsDropdownOptions)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BsDropdown Dropdown(object target, object options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public BsDropdown Dropdown(object target, BsDropdownOptions options = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -451,14 +558,12 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">target</span></td>
-        <td><p>An ElementReference or css selector string</p>
-</td>
+        <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><a class="xref" href="BlazorWerks.Bootstrap.BsDropdownOptions.html">BsDropdownOptions</a></td>
         <td><span class="parametername">options</span></td>
-        <td><p>An anonymous object of component options</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -473,26 +578,24 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="BlazorWerks.Bootstrap.BsDropdown.html">BsDropdown</a></td>
-        <td><p>Bootstrap component</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Modal_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Modal(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Modal_System_Object_BlazorWerks_Bootstrap_BsModalOptions_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Modal(System.Object%2CBlazorWerks.Bootstrap.BsModalOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L193">View Source</a>
+    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L69">View Source</a>
   </span>
   <a id="BlazorWerks_Bootstrap_Bootstrap_Modal_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Modal*"></a>
-  <h4 id="BlazorWerks_Bootstrap_Bootstrap_Modal_System_Object_System_Object_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Modal(System.Object,System.Object)">Modal(Object, Object)</h4>
-  <div class="markdown level1 summary"><p>Gets or creates a Bootstrap compoent associated with the document target element</p>
-</div>
+  <h4 id="BlazorWerks_Bootstrap_Bootstrap_Modal_System_Object_BlazorWerks_Bootstrap_BsModalOptions_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Modal(System.Object,BlazorWerks.Bootstrap.BsModalOptions)">Modal(Object, BsModalOptions)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BsModal Modal(object target, object options = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public BsModal Modal(object target, BsModalOptions options = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -507,14 +610,12 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">target</span></td>
-        <td><p>An ElementReference or css selector string</p>
-</td>
+        <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Object</span></td>
+        <td><a class="xref" href="BlazorWerks.Bootstrap.BsModalOptions.html">BsModalOptions</a></td>
         <td><span class="parametername">options</span></td>
-        <td><p>An anonymous object of component options</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -529,8 +630,7 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="BlazorWerks.Bootstrap.BsModal.html">BsModal</a></td>
-        <td><p>Bootstrap component</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -539,12 +639,11 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Offcanvas_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Offcanvas(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L202">View Source</a>
+    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L71">View Source</a>
   </span>
   <a id="BlazorWerks_Bootstrap_Bootstrap_Offcanvas_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Offcanvas*"></a>
   <h4 id="BlazorWerks_Bootstrap_Bootstrap_Offcanvas_System_Object_System_Object_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Offcanvas(System.Object,System.Object)">Offcanvas(Object, Object)</h4>
-  <div class="markdown level1 summary"><p>Gets or creates a Bootstrap compoent associated with the document target element</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -563,14 +662,12 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">target</span></td>
-        <td><p>An ElementReference or css selector string</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">options</span></td>
-        <td><p>An anonymous object of component options</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -585,8 +682,7 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="BlazorWerks.Bootstrap.BsOffcanvas.html">BsOffcanvas</a></td>
-        <td><p>Bootstrap component</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -595,12 +691,11 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Popover_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Popover(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L211">View Source</a>
+    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L73">View Source</a>
   </span>
   <a id="BlazorWerks_Bootstrap_Bootstrap_Popover_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Popover*"></a>
   <h4 id="BlazorWerks_Bootstrap_Bootstrap_Popover_System_Object_System_Object_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Popover(System.Object,System.Object)">Popover(Object, Object)</h4>
-  <div class="markdown level1 summary"><p>Gets or creates a Bootstrap compoent associated with the document target element</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -619,14 +714,12 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">target</span></td>
-        <td><p>An ElementReference or css selector string</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">options</span></td>
-        <td><p>An anonymous object of component options</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -641,8 +734,7 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="BlazorWerks.Bootstrap.BsPopover.html">BsPopover</a></td>
-        <td><p>Bootstrap component</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -651,12 +743,11 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_ScrollSpy_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.ScrollSpy(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L220">View Source</a>
+    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L75">View Source</a>
   </span>
   <a id="BlazorWerks_Bootstrap_Bootstrap_ScrollSpy_" data-uid="BlazorWerks.Bootstrap.Bootstrap.ScrollSpy*"></a>
   <h4 id="BlazorWerks_Bootstrap_Bootstrap_ScrollSpy_System_Object_System_Object_" data-uid="BlazorWerks.Bootstrap.Bootstrap.ScrollSpy(System.Object,System.Object)">ScrollSpy(Object, Object)</h4>
-  <div class="markdown level1 summary"><p>Gets or creates a Bootstrap compoent associated with the document target element</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -675,14 +766,12 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">target</span></td>
-        <td><p>An ElementReference or css selector string</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">options</span></td>
-        <td><p>An anonymous object of component options</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -697,8 +786,7 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="BlazorWerks.Bootstrap.BsScrollSpy.html">BsScrollSpy</a></td>
-        <td><p>Bootstrap component</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -707,12 +795,11 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Tab_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Tab(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L229">View Source</a>
+    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L77">View Source</a>
   </span>
   <a id="BlazorWerks_Bootstrap_Bootstrap_Tab_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Tab*"></a>
   <h4 id="BlazorWerks_Bootstrap_Bootstrap_Tab_System_Object_System_Object_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Tab(System.Object,System.Object)">Tab(Object, Object)</h4>
-  <div class="markdown level1 summary"><p>Gets or creates a Bootstrap compoent associated with the document target element</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -731,14 +818,12 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">target</span></td>
-        <td><p>An ElementReference or css selector string</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">options</span></td>
-        <td><p>An anonymous object of component options</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -753,8 +838,7 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="BlazorWerks.Bootstrap.BsTab.html">BsTab</a></td>
-        <td><p>Bootstrap component</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -763,12 +847,11 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Toast_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Toast(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L238">View Source</a>
+    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L79">View Source</a>
   </span>
   <a id="BlazorWerks_Bootstrap_Bootstrap_Toast_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Toast*"></a>
   <h4 id="BlazorWerks_Bootstrap_Bootstrap_Toast_System_Object_System_Object_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Toast(System.Object,System.Object)">Toast(Object, Object)</h4>
-  <div class="markdown level1 summary"><p>Gets or creates a Bootstrap compoent associated with the document target element</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -787,14 +870,12 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">target</span></td>
-        <td><p>An ElementReference or css selector string</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">options</span></td>
-        <td><p>An anonymous object of component options</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -809,8 +890,7 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="BlazorWerks.Bootstrap.BsToast.html">BsToast</a></td>
-        <td><p>Bootstrap component</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -819,12 +899,11 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <a href="https://github.com/scorfano/BlazorWerks/new/master/apiSpec/new?filename=BlazorWerks_Bootstrap_Bootstrap_Tooltip_System_Object_System_Object_.md&amp;value=---%0Auid%3A%20BlazorWerks.Bootstrap.Bootstrap.Tooltip(System.Object%2CSystem.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L247">View Source</a>
+    <a href="https://github.com/scorfano/BlazorWerks/blob/master/Src/BlazorWerks/Bootstrap/Bootstrap.cs/#L81">View Source</a>
   </span>
   <a id="BlazorWerks_Bootstrap_Bootstrap_Tooltip_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Tooltip*"></a>
   <h4 id="BlazorWerks_Bootstrap_Bootstrap_Tooltip_System_Object_System_Object_" data-uid="BlazorWerks.Bootstrap.Bootstrap.Tooltip(System.Object,System.Object)">Tooltip(Object, Object)</h4>
-  <div class="markdown level1 summary"><p>Gets or creates a Bootstrap compoent associated with the document target element</p>
-</div>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -843,14 +922,12 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">target</span></td>
-        <td><p>An ElementReference or css selector string</p>
-</td>
+        <td></td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">options</span></td>
-        <td><p>An anonymous object of component options</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -865,8 +942,7 @@ public Bootstrap(IJSRuntime jsr)</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="BlazorWerks.Bootstrap.BsTooltip.html">BsTooltip</a></td>
-        <td><p>Bootstrap component</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>

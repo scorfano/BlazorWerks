@@ -5,11 +5,9 @@ namespace BlazorWerks.Bootstrap
 {
     public class BsTooltip : BsComponent
     {
-        public BsTooltip(object target, object options = null, IJSRuntime jsr = null) : base(target, options, jsr)
+        internal BsTooltip(object target, object options = null, IJSRuntime jsr = null) : base("Tooltip", target, options, jsr)
         {
         }
-
-        public override string Name { get => "Tooltip"; }
 
         public BsTooltip Disable()
         { return Invoke<BsTooltip>("disable"); }

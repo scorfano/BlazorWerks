@@ -5,11 +5,9 @@ namespace BlazorWerks.Bootstrap
 {
     public class BsScrollSpy : BsComponent
     {
-        public BsScrollSpy(object target, object options = null, IJSRuntime jsr = null) : base(target, options, jsr)
+        internal BsScrollSpy(object target, object options = null, IJSRuntime jsr = null) : base("ScrollSpy", target, options, jsr)
         {
         }
-
-        public override string Name { get => "ScrollSpy"; }
 
         public BsScrollSpy Refresh()
         { return Invoke<BsScrollSpy>("refresh"); }

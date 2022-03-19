@@ -6,11 +6,9 @@ namespace BlazorWerks.Bootstrap
     public class BsModal : BsComponent
     {
 
-        public BsModal(object target, object options = null, IJSRuntime jsr = null) : base(target, options, jsr)
+        internal BsModal(object target, object options = null, IJSRuntime jsr = null) : base("Modal", target, options, jsr)
         {
         }
-
-        public override string Name { get => "Modal"; }
 
         public BsModal HandleUpdate()
         { return Invoke<BsModal>("handleUpdate"); }

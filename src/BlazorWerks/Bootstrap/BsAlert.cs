@@ -5,12 +5,14 @@ namespace BlazorWerks.Bootstrap
 {
     public class BsAlert : BsComponent
     {
-        public BsAlert(object target, object options = null, IJSRuntime jsr = null) : base(target, options, jsr)
+        internal BsAlert(object target, object options = null, IJSRuntime jsr = null) : base("Alert", target, options, jsr)
         {
         }
 
-        public override string Name { get => "Alert"; }
-
+        /// <summary>
+        /// Programmatically closes the alert.
+        /// </summary>
+        /// <returns>this</returns>
         public BsAlert Close()
         { return Invoke<BsAlert>("close"); }
     }

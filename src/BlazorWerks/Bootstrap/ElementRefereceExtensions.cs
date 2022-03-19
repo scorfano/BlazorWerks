@@ -4,7 +4,7 @@ namespace BlazorWerks.Bootstrap
 {
     public static class ElementReferenceExtensions
     {
-        public static BsAlert Alert(this ElementReference target, object options = null) => new BsAlert(target, options);
+        public static BsAlert Alert(this ElementReference target) => new BsAlert(target);
 
         public static BsButton Button(this ElementReference target, object options = null) => new BsButton(target, options);
 

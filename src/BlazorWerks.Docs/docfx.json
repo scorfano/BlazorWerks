@@ -52,9 +52,7 @@
     "dest": "..\\..\\docs",
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
-    "template": [
-      "default"
-    ],
+    "template": [ "statictoc" ],
     "postProcessors": [],
     "markdownEngineName": "markdig",
     "noLangKeyword": false,

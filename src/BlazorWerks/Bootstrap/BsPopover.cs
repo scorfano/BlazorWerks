@@ -5,11 +5,9 @@ namespace BlazorWerks.Bootstrap
 {
     public class BsPopover : BsComponent
     {
-        public BsPopover(object target, object options = null, IJSRuntime jsr = null) : base(target, options, jsr)
+        internal BsPopover(object target, object options = null, IJSRuntime jsr = null) : base("Popover", target, options, jsr)
         {
         }
-
-        public override string Name { get => "Popover"; }
 
         public BsPopover Disable()
         { return Invoke<BsPopover>("disable"); }

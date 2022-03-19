@@ -5,11 +5,9 @@ namespace BlazorWerks.Bootstrap
 {
     public class BsDropdown : BsComponent
     {
-        public BsDropdown(object target, object options = null, IJSRuntime jsr = null) : base(target, options, jsr)
+        internal BsDropdown(object target, object options = null, IJSRuntime jsr = null) : base("Dropdown", target, options, jsr)
         {
         }
-
-        public override string Name { get => "Dropdown"; }
 
         public BsDropdown Hide()
         { return Invoke<BsDropdown>("hide"); }

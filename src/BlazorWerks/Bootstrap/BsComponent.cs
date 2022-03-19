@@ -11,13 +11,16 @@ namespace BlazorWerks.Bootstrap
         const string JS_INVOKE = "BlazorTools.Bootstrap.invoke";
 
 
-        public BsComponent(object target, object options = null, IJSRuntime jsr = null) 
+        public BsComponent(string name, object target, object options = null, IJSRuntime jsr = null) 
         {
+            Name = name;
+
             Target = target;
 
             jsRuntime = jsr == null && Target is ElementReference ? GetJSRuntime((ElementReference)Target) : jsr;
 
             if (options != null) jsRuntime.InvokeVoidAsync(JS_INVOKE, Name, Target, options);
+
         }
 
 
@@ -35,7 +38,7 @@ namespace BlazorWerks.Bootstrap
                 throw new InvalidOperationException("ElementReference is unassigned or not configured correctly.");
             }
 
-            //JSRuntime is marked internal in WebElementReferenceContext so must get value using reflecttion
+            //JSRuntime is marked internal in WebElementReferenceContext so must get value using reflection
 
             IJSRuntime jsr = context.GetType()
                 ?.GetProperty("JSRuntime", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
@@ -58,7 +61,7 @@ namespace BlazorWerks.Bootstrap
 
         protected IJSRuntime jsRuntime { get; set; }
 
-        public virtual string Name { get => ""; }
+        protected readonly string Name = "";
 
         protected object Target { get; set; }
 
@@ -66,12 +69,23 @@ namespace BlazorWerks.Bootstrap
         // JSObjectReferece without the need for a custom JavaScript function, as now.
         // Low priority as the existing way works with .NET Core 3.1 and up.
 
-        public void Invoke(string method, params object[] args)
+        /// <summary>
+        /// Invokes a Bootstrap component JavaScript method.
+        /// </summary>
+        /// <param name="method">Method name</param>
+        /// <param name="args">Optional method arguments</param>
+        protected void Invoke(string method, params object[] args)
         {
             jsRuntime?.InvokeVoidAsync(JS_INVOKE, Name, Target, null, method, args);
         }
-
-        public T Invoke<T>(string method, params object[] args)
+        /// <summary>
+        /// Invokes a Bootstrap component JavaScript method.
+        /// </summary>
+        /// <typeparam name="T">Type of return value</typeparam>
+        /// <param name="method">Method name</param>
+        /// <param name="args">Optional method arguments</param>
+        /// <returns></returns>
+        protected T Invoke<T>(string method, params object[] args)
         {
             Invoke(method, args);
             return (T)Convert.ChangeType(this, typeof(T));

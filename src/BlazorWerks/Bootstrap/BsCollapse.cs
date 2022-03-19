@@ -5,11 +5,9 @@ namespace BlazorWerks.Bootstrap
 {
     public class BsCollapse : BsComponent
     {
-        public BsCollapse(object target, object options = null, IJSRuntime jsr = null) : base(target, options, jsr)
+        internal BsCollapse(object target, object options = null, IJSRuntime jsr = null) : base("Collapse", target, options, jsr)
         {
         }
-
-        public override string Name { get => "Collapse"; }
 
         public BsCollapse Hide()
         { return Invoke<BsCollapse>("hide"); }

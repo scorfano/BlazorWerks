@@ -5,11 +5,9 @@ namespace BlazorWerks.Bootstrap
 {
     public class BsOffcanvas : BsComponent
     {
-        public BsOffcanvas(object target, object options = null, IJSRuntime jsr = null) : base(target, options, jsr)
+        internal BsOffcanvas(object target, object options = null, IJSRuntime jsr = null) : base("Offcanvas", target, options, jsr)
         {
         }
-
-        public override string Name { get => "Offcanvas"; }
 
         public BsOffcanvas Hide()
         { return Invoke<BsOffcanvas>("hide"); }

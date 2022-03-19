@@ -5,11 +5,9 @@ namespace BlazorWerks.Bootstrap
 {
     public class BsButton : BsComponent
     {
-        public BsButton(object target, object options = null, IJSRuntime jsr = null) : base(target, options, jsr)
+        internal BsButton(object target, object options = null, IJSRuntime jsr = null) : base("Button", target, options, jsr)
         {
         }
-
-        public override string Name { get => "Button"; }
 
         public BsButton Toggle()
         { return Invoke<BsButton>("toggle"); }

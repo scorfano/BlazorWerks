@@ -5,11 +5,9 @@ namespace BlazorWerks.Bootstrap
 {
     public class BsCarousel : BsComponent
     {
-        public BsCarousel(object target, object options = null, IJSRuntime jsr = null) : base(target, options, jsr)
+        internal BsCarousel(object target, object options = null, IJSRuntime jsr = null) : base("Carousel", target, options, jsr)
         {
         }
-
-        public override string Name { get => "Carousel"; }
         
         public BsCarousel Cycle()
         { return Invoke<BsCarousel>("cycle"); }

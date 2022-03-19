@@ -16,8 +16,8 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
     
     
     
@@ -46,7 +46,15 @@
                   <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
                 </div>
               </form>
-            </div>
+                
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../articles/intro.html" title="Articles">Articles</a>
+                      </li>
+                      <li>
+                          <a href="../api/index.html" title="Api Documentation">Api Documentation</a>
+                      </li>
+                </ul>    </div>
           </div>
         </nav>
         
@@ -59,11 +67,137 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="BlazorWerks.html" title="BlazorWerks" class="">BlazorWerks</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="BlazorWerks.Toolbox.html" title="Toolbox" class="">Toolbox</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="BlazorWerks.Bootstrap.html" title="BlazorWerks.Bootstrap" class="">BlazorWerks.Bootstrap</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.Bootstrap.html" title="Bootstrap" class="">Bootstrap</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BootstrapEventArgs.html" title="BootstrapEventArgs" class="">BootstrapEventArgs</a>
+                          </li>
+                          <li class="active">
+                            <a href="BlazorWerks.Bootstrap.BootstrapEvents.html" title="BootstrapEvents" class="active">BootstrapEvents</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsAlert.html" title="BsAlert" class="">BsAlert</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsButton.html" title="BsButton" class="">BsButton</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsCarousel.html" title="BsCarousel" class="">BsCarousel</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsCarouselOptions.html" title="BsCarouselOptions" class="">BsCarouselOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsCollapse.html" title="BsCollapse" class="">BsCollapse</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsCollapseOptions.html" title="BsCollapseOptions" class="">BsCollapseOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsComponent.html" title="BsComponent" class="">BsComponent</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsDropdown.html" title="BsDropdown" class="">BsDropdown</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsDropdownOptions.html" title="BsDropdownOptions" class="">BsDropdownOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsModal.html" title="BsModal" class="">BsModal</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsModalOptions.html" title="BsModalOptions" class="">BsModalOptions</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsOffcanvas.html" title="BsOffcanvas" class="">BsOffcanvas</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsPopover.html" title="BsPopover" class="">BsPopover</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsScrollSpy.html" title="BsScrollSpy" class="">BsScrollSpy</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsTab.html" title="BsTab" class="">BsTab</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsToast.html" title="BsToast" class="">BsToast</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.BsTooltip.html" title="BsTooltip" class="">BsTooltip</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.ElementReferenceExtensions.html" title="ElementReferenceExtensions" class="">ElementReferenceExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.EventHandlers.html" title="EventHandlers" class="">EventHandlers</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.IBootstrap.html" title="IBootstrap" class="">IBootstrap</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.Bootstrap.ServiceCollectionExtensions.html" title="ServiceCollectionExtensions" class="">ServiceCollectionExtensions</a>
+                          </li>
+                        </ul>  </li>
+                    <li class="">
+                      <span class="expand-stub"></span>
+                      <a href="BlazorWerks.WebStorage.html" title="BlazorWerks.WebStorage" class="">BlazorWerks.WebStorage</a>
+                        
+                        <ul class="nav level2">
+                          <li class="">
+                            <a href="BlazorWerks.WebStorage.EventHandlers.html" title="EventHandlers" class="">EventHandlers</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.WebStorage.ILocalStorage.html" title="ILocalStorage" class="">ILocalStorage</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.WebStorage.ISessionStorage.html" title="ISessionStorage" class="">ISessionStorage</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.WebStorage.LocalStorage.html" title="LocalStorage" class="">LocalStorage</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.WebStorage.ServiceCollectionExtensions.html" title="ServiceCollectionExtensions" class="">ServiceCollectionExtensions</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.WebStorage.SessionStorage.html" title="SessionStorage" class="">SessionStorage</a>
+                          </li>
+                          <li class="">
+                            <a href="BlazorWerks.WebStorage.StorageEventArgs.html" title="StorageEventArgs" class="">StorageEventArgs</a>
+                          </li>
+                        </ul>  </li>
+                  </ul>        </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="article row grid-right">

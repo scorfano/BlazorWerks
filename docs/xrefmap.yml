@@ -38,12 +38,12 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.Bootstrap.Bootstrap
   nameWithType: Bootstrap.Bootstrap
-- uid: BlazorWerks.Bootstrap.Bootstrap.Alert(System.Object,System.Object)
-  name: Alert(Object, Object)
-  href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Alert_System_Object_System_Object_
-  commentId: M:BlazorWerks.Bootstrap.Bootstrap.Alert(System.Object,System.Object)
-  fullName: BlazorWerks.Bootstrap.Bootstrap.Alert(System.Object, System.Object)
-  nameWithType: Bootstrap.Alert(Object, Object)
+- uid: BlazorWerks.Bootstrap.Bootstrap.Alert(System.Object)
+  name: Alert(Object)
+  href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Alert_System_Object_
+  commentId: M:BlazorWerks.Bootstrap.Bootstrap.Alert(System.Object)
+  fullName: BlazorWerks.Bootstrap.Bootstrap.Alert(System.Object)
+  nameWithType: Bootstrap.Alert(Object)
 - uid: BlazorWerks.Bootstrap.Bootstrap.Alert*
   name: Alert
   href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Alert_
@@ -51,12 +51,12 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.Bootstrap.Alert
   nameWithType: Bootstrap.Alert
-- uid: BlazorWerks.Bootstrap.Bootstrap.Button(System.Object,System.Object)
-  name: Button(Object, Object)
-  href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Button_System_Object_System_Object_
-  commentId: M:BlazorWerks.Bootstrap.Bootstrap.Button(System.Object,System.Object)
-  fullName: BlazorWerks.Bootstrap.Bootstrap.Button(System.Object, System.Object)
-  nameWithType: Bootstrap.Button(Object, Object)
+- uid: BlazorWerks.Bootstrap.Bootstrap.Button(System.Object)
+  name: Button(Object)
+  href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Button_System_Object_
+  commentId: M:BlazorWerks.Bootstrap.Bootstrap.Button(System.Object)
+  fullName: BlazorWerks.Bootstrap.Bootstrap.Button(System.Object)
+  nameWithType: Bootstrap.Button(Object)
 - uid: BlazorWerks.Bootstrap.Bootstrap.Button*
   name: Button
   href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Button_
@@ -64,12 +64,12 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.Bootstrap.Button
   nameWithType: Bootstrap.Button
-- uid: BlazorWerks.Bootstrap.Bootstrap.Carousel(System.Object,System.Object)
-  name: Carousel(Object, Object)
-  href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Carousel_System_Object_System_Object_
-  commentId: M:BlazorWerks.Bootstrap.Bootstrap.Carousel(System.Object,System.Object)
-  fullName: BlazorWerks.Bootstrap.Bootstrap.Carousel(System.Object, System.Object)
-  nameWithType: Bootstrap.Carousel(Object, Object)
+- uid: BlazorWerks.Bootstrap.Bootstrap.Carousel(System.Object,BlazorWerks.Bootstrap.BsCarouselOptions)
+  name: Carousel(Object, BsCarouselOptions)
+  href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Carousel_System_Object_BlazorWerks_Bootstrap_BsCarouselOptions_
+  commentId: M:BlazorWerks.Bootstrap.Bootstrap.Carousel(System.Object,BlazorWerks.Bootstrap.BsCarouselOptions)
+  fullName: BlazorWerks.Bootstrap.Bootstrap.Carousel(System.Object, BlazorWerks.Bootstrap.BsCarouselOptions)
+  nameWithType: Bootstrap.Carousel(Object, BsCarouselOptions)
 - uid: BlazorWerks.Bootstrap.Bootstrap.Carousel*
   name: Carousel
   href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Carousel_
@@ -77,12 +77,12 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.Bootstrap.Carousel
   nameWithType: Bootstrap.Carousel
-- uid: BlazorWerks.Bootstrap.Bootstrap.Collapse(System.Object,System.Object)
-  name: Collapse(Object, Object)
-  href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Collapse_System_Object_System_Object_
-  commentId: M:BlazorWerks.Bootstrap.Bootstrap.Collapse(System.Object,System.Object)
-  fullName: BlazorWerks.Bootstrap.Bootstrap.Collapse(System.Object, System.Object)
-  nameWithType: Bootstrap.Collapse(Object, Object)
+- uid: BlazorWerks.Bootstrap.Bootstrap.Collapse(System.Object,BlazorWerks.Bootstrap.BsCollapseOptions)
+  name: Collapse(Object, BsCollapseOptions)
+  href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Collapse_System_Object_BlazorWerks_Bootstrap_BsCollapseOptions_
+  commentId: M:BlazorWerks.Bootstrap.Bootstrap.Collapse(System.Object,BlazorWerks.Bootstrap.BsCollapseOptions)
+  fullName: BlazorWerks.Bootstrap.Bootstrap.Collapse(System.Object, BlazorWerks.Bootstrap.BsCollapseOptions)
+  nameWithType: Bootstrap.Collapse(Object, BsCollapseOptions)
 - uid: BlazorWerks.Bootstrap.Bootstrap.Collapse*
   name: Collapse
   href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Collapse_
@@ -90,12 +90,12 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.Bootstrap.Collapse
   nameWithType: Bootstrap.Collapse
-- uid: BlazorWerks.Bootstrap.Bootstrap.Dropdown(System.Object,System.Object)
-  name: Dropdown(Object, Object)
-  href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Dropdown_System_Object_System_Object_
-  commentId: M:BlazorWerks.Bootstrap.Bootstrap.Dropdown(System.Object,System.Object)
-  fullName: BlazorWerks.Bootstrap.Bootstrap.Dropdown(System.Object, System.Object)
-  nameWithType: Bootstrap.Dropdown(Object, Object)
+- uid: BlazorWerks.Bootstrap.Bootstrap.Dropdown(System.Object,BlazorWerks.Bootstrap.BsDropdownOptions)
+  name: Dropdown(Object, BsDropdownOptions)
+  href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Dropdown_System_Object_BlazorWerks_Bootstrap_BsDropdownOptions_
+  commentId: M:BlazorWerks.Bootstrap.Bootstrap.Dropdown(System.Object,BlazorWerks.Bootstrap.BsDropdownOptions)
+  fullName: BlazorWerks.Bootstrap.Bootstrap.Dropdown(System.Object, BlazorWerks.Bootstrap.BsDropdownOptions)
+  nameWithType: Bootstrap.Dropdown(Object, BsDropdownOptions)
 - uid: BlazorWerks.Bootstrap.Bootstrap.Dropdown*
   name: Dropdown
   href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Dropdown_
@@ -116,12 +116,12 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.Bootstrap.jsRuntime
   nameWithType: Bootstrap.jsRuntime
-- uid: BlazorWerks.Bootstrap.Bootstrap.Modal(System.Object,System.Object)
-  name: Modal(Object, Object)
-  href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Modal_System_Object_System_Object_
-  commentId: M:BlazorWerks.Bootstrap.Bootstrap.Modal(System.Object,System.Object)
-  fullName: BlazorWerks.Bootstrap.Bootstrap.Modal(System.Object, System.Object)
-  nameWithType: Bootstrap.Modal(Object, Object)
+- uid: BlazorWerks.Bootstrap.Bootstrap.Modal(System.Object,BlazorWerks.Bootstrap.BsModalOptions)
+  name: Modal(Object, BsModalOptions)
+  href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Modal_System_Object_BlazorWerks_Bootstrap_BsModalOptions_
+  commentId: M:BlazorWerks.Bootstrap.Bootstrap.Modal(System.Object,BlazorWerks.Bootstrap.BsModalOptions)
+  fullName: BlazorWerks.Bootstrap.Bootstrap.Modal(System.Object, BlazorWerks.Bootstrap.BsModalOptions)
+  nameWithType: Bootstrap.Modal(Object, BsModalOptions)
 - uid: BlazorWerks.Bootstrap.Bootstrap.Modal*
   name: Modal
   href: api/BlazorWerks.Bootstrap.Bootstrap.html#BlazorWerks_Bootstrap_Bootstrap_Modal_
@@ -900,19 +900,6 @@ references:
   commentId: T:BlazorWerks.Bootstrap.BsAlert
   fullName: BlazorWerks.Bootstrap.BsAlert
   nameWithType: BsAlert
-- uid: BlazorWerks.Bootstrap.BsAlert.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  name: BsAlert(Object, Object, IJSRuntime)
-  href: api/BlazorWerks.Bootstrap.BsAlert.html#BlazorWerks_Bootstrap_BsAlert__ctor_System_Object_System_Object_Microsoft_JSInterop_IJSRuntime_
-  commentId: M:BlazorWerks.Bootstrap.BsAlert.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  fullName: BlazorWerks.Bootstrap.BsAlert.BsAlert(System.Object, System.Object, Microsoft.JSInterop.IJSRuntime)
-  nameWithType: BsAlert.BsAlert(Object, Object, IJSRuntime)
-- uid: BlazorWerks.Bootstrap.BsAlert.#ctor*
-  name: BsAlert
-  href: api/BlazorWerks.Bootstrap.BsAlert.html#BlazorWerks_Bootstrap_BsAlert__ctor_
-  commentId: Overload:BlazorWerks.Bootstrap.BsAlert.#ctor
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsAlert.BsAlert
-  nameWithType: BsAlert.BsAlert
 - uid: BlazorWerks.Bootstrap.BsAlert.Close
   name: Close()
   href: api/BlazorWerks.Bootstrap.BsAlert.html#BlazorWerks_Bootstrap_BsAlert_Close
@@ -926,51 +913,12 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.BsAlert.Close
   nameWithType: BsAlert.Close
-- uid: BlazorWerks.Bootstrap.BsAlert.Name
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsAlert.html#BlazorWerks_Bootstrap_BsAlert_Name
-  commentId: P:BlazorWerks.Bootstrap.BsAlert.Name
-  fullName: BlazorWerks.Bootstrap.BsAlert.Name
-  nameWithType: BsAlert.Name
-- uid: BlazorWerks.Bootstrap.BsAlert.Name*
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsAlert.html#BlazorWerks_Bootstrap_BsAlert_Name_
-  commentId: Overload:BlazorWerks.Bootstrap.BsAlert.Name
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsAlert.Name
-  nameWithType: BsAlert.Name
 - uid: BlazorWerks.Bootstrap.BsButton
   name: BsButton
   href: api/BlazorWerks.Bootstrap.BsButton.html
   commentId: T:BlazorWerks.Bootstrap.BsButton
   fullName: BlazorWerks.Bootstrap.BsButton
   nameWithType: BsButton
-- uid: BlazorWerks.Bootstrap.BsButton.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  name: BsButton(Object, Object, IJSRuntime)
-  href: api/BlazorWerks.Bootstrap.BsButton.html#BlazorWerks_Bootstrap_BsButton__ctor_System_Object_System_Object_Microsoft_JSInterop_IJSRuntime_
-  commentId: M:BlazorWerks.Bootstrap.BsButton.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  fullName: BlazorWerks.Bootstrap.BsButton.BsButton(System.Object, System.Object, Microsoft.JSInterop.IJSRuntime)
-  nameWithType: BsButton.BsButton(Object, Object, IJSRuntime)
-- uid: BlazorWerks.Bootstrap.BsButton.#ctor*
-  name: BsButton
-  href: api/BlazorWerks.Bootstrap.BsButton.html#BlazorWerks_Bootstrap_BsButton__ctor_
-  commentId: Overload:BlazorWerks.Bootstrap.BsButton.#ctor
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsButton.BsButton
-  nameWithType: BsButton.BsButton
-- uid: BlazorWerks.Bootstrap.BsButton.Name
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsButton.html#BlazorWerks_Bootstrap_BsButton_Name
-  commentId: P:BlazorWerks.Bootstrap.BsButton.Name
-  fullName: BlazorWerks.Bootstrap.BsButton.Name
-  nameWithType: BsButton.Name
-- uid: BlazorWerks.Bootstrap.BsButton.Name*
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsButton.html#BlazorWerks_Bootstrap_BsButton_Name_
-  commentId: Overload:BlazorWerks.Bootstrap.BsButton.Name
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsButton.Name
-  nameWithType: BsButton.Name
 - uid: BlazorWerks.Bootstrap.BsButton.Toggle
   name: Toggle()
   href: api/BlazorWerks.Bootstrap.BsButton.html#BlazorWerks_Bootstrap_BsButton_Toggle
@@ -990,19 +938,6 @@ references:
   commentId: T:BlazorWerks.Bootstrap.BsCarousel
   fullName: BlazorWerks.Bootstrap.BsCarousel
   nameWithType: BsCarousel
-- uid: BlazorWerks.Bootstrap.BsCarousel.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  name: BsCarousel(Object, Object, IJSRuntime)
-  href: api/BlazorWerks.Bootstrap.BsCarousel.html#BlazorWerks_Bootstrap_BsCarousel__ctor_System_Object_System_Object_Microsoft_JSInterop_IJSRuntime_
-  commentId: M:BlazorWerks.Bootstrap.BsCarousel.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  fullName: BlazorWerks.Bootstrap.BsCarousel.BsCarousel(System.Object, System.Object, Microsoft.JSInterop.IJSRuntime)
-  nameWithType: BsCarousel.BsCarousel(Object, Object, IJSRuntime)
-- uid: BlazorWerks.Bootstrap.BsCarousel.#ctor*
-  name: BsCarousel
-  href: api/BlazorWerks.Bootstrap.BsCarousel.html#BlazorWerks_Bootstrap_BsCarousel__ctor_
-  commentId: Overload:BlazorWerks.Bootstrap.BsCarousel.#ctor
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsCarousel.BsCarousel
-  nameWithType: BsCarousel.BsCarousel
 - uid: BlazorWerks.Bootstrap.BsCarousel.Cycle
   name: Cycle()
   href: api/BlazorWerks.Bootstrap.BsCarousel.html#BlazorWerks_Bootstrap_BsCarousel_Cycle
@@ -1016,19 +951,6 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.BsCarousel.Cycle
   nameWithType: BsCarousel.Cycle
-- uid: BlazorWerks.Bootstrap.BsCarousel.Name
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsCarousel.html#BlazorWerks_Bootstrap_BsCarousel_Name
-  commentId: P:BlazorWerks.Bootstrap.BsCarousel.Name
-  fullName: BlazorWerks.Bootstrap.BsCarousel.Name
-  nameWithType: BsCarousel.Name
-- uid: BlazorWerks.Bootstrap.BsCarousel.Name*
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsCarousel.html#BlazorWerks_Bootstrap_BsCarousel_Name_
-  commentId: Overload:BlazorWerks.Bootstrap.BsCarousel.Name
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsCarousel.Name
-  nameWithType: BsCarousel.Name
 - uid: BlazorWerks.Bootstrap.BsCarousel.Next
   name: Next()
   href: api/BlazorWerks.Bootstrap.BsCarousel.html#BlazorWerks_Bootstrap_BsCarousel_Next
@@ -1081,25 +1003,96 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.BsCarousel.To
   nameWithType: BsCarousel.To
+- uid: BlazorWerks.Bootstrap.BsCarouselOptions
+  name: BsCarouselOptions
+  href: api/BlazorWerks.Bootstrap.BsCarouselOptions.html
+  commentId: T:BlazorWerks.Bootstrap.BsCarouselOptions
+  fullName: BlazorWerks.Bootstrap.BsCarouselOptions
+  nameWithType: BsCarouselOptions
+- uid: BlazorWerks.Bootstrap.BsCarouselOptions.Interval
+  name: Interval
+  href: api/BlazorWerks.Bootstrap.BsCarouselOptions.html#BlazorWerks_Bootstrap_BsCarouselOptions_Interval
+  commentId: P:BlazorWerks.Bootstrap.BsCarouselOptions.Interval
+  fullName: BlazorWerks.Bootstrap.BsCarouselOptions.Interval
+  nameWithType: BsCarouselOptions.Interval
+- uid: BlazorWerks.Bootstrap.BsCarouselOptions.Interval*
+  name: Interval
+  href: api/BlazorWerks.Bootstrap.BsCarouselOptions.html#BlazorWerks_Bootstrap_BsCarouselOptions_Interval_
+  commentId: Overload:BlazorWerks.Bootstrap.BsCarouselOptions.Interval
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsCarouselOptions.Interval
+  nameWithType: BsCarouselOptions.Interval
+- uid: BlazorWerks.Bootstrap.BsCarouselOptions.Keyboard
+  name: Keyboard
+  href: api/BlazorWerks.Bootstrap.BsCarouselOptions.html#BlazorWerks_Bootstrap_BsCarouselOptions_Keyboard
+  commentId: P:BlazorWerks.Bootstrap.BsCarouselOptions.Keyboard
+  fullName: BlazorWerks.Bootstrap.BsCarouselOptions.Keyboard
+  nameWithType: BsCarouselOptions.Keyboard
+- uid: BlazorWerks.Bootstrap.BsCarouselOptions.Keyboard*
+  name: Keyboard
+  href: api/BlazorWerks.Bootstrap.BsCarouselOptions.html#BlazorWerks_Bootstrap_BsCarouselOptions_Keyboard_
+  commentId: Overload:BlazorWerks.Bootstrap.BsCarouselOptions.Keyboard
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsCarouselOptions.Keyboard
+  nameWithType: BsCarouselOptions.Keyboard
+- uid: BlazorWerks.Bootstrap.BsCarouselOptions.Pause
+  name: Pause
+  href: api/BlazorWerks.Bootstrap.BsCarouselOptions.html#BlazorWerks_Bootstrap_BsCarouselOptions_Pause
+  commentId: P:BlazorWerks.Bootstrap.BsCarouselOptions.Pause
+  fullName: BlazorWerks.Bootstrap.BsCarouselOptions.Pause
+  nameWithType: BsCarouselOptions.Pause
+- uid: BlazorWerks.Bootstrap.BsCarouselOptions.Pause*
+  name: Pause
+  href: api/BlazorWerks.Bootstrap.BsCarouselOptions.html#BlazorWerks_Bootstrap_BsCarouselOptions_Pause_
+  commentId: Overload:BlazorWerks.Bootstrap.BsCarouselOptions.Pause
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsCarouselOptions.Pause
+  nameWithType: BsCarouselOptions.Pause
+- uid: BlazorWerks.Bootstrap.BsCarouselOptions.Ride
+  name: Ride
+  href: api/BlazorWerks.Bootstrap.BsCarouselOptions.html#BlazorWerks_Bootstrap_BsCarouselOptions_Ride
+  commentId: P:BlazorWerks.Bootstrap.BsCarouselOptions.Ride
+  fullName: BlazorWerks.Bootstrap.BsCarouselOptions.Ride
+  nameWithType: BsCarouselOptions.Ride
+- uid: BlazorWerks.Bootstrap.BsCarouselOptions.Ride*
+  name: Ride
+  href: api/BlazorWerks.Bootstrap.BsCarouselOptions.html#BlazorWerks_Bootstrap_BsCarouselOptions_Ride_
+  commentId: Overload:BlazorWerks.Bootstrap.BsCarouselOptions.Ride
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsCarouselOptions.Ride
+  nameWithType: BsCarouselOptions.Ride
+- uid: BlazorWerks.Bootstrap.BsCarouselOptions.Touch
+  name: Touch
+  href: api/BlazorWerks.Bootstrap.BsCarouselOptions.html#BlazorWerks_Bootstrap_BsCarouselOptions_Touch
+  commentId: P:BlazorWerks.Bootstrap.BsCarouselOptions.Touch
+  fullName: BlazorWerks.Bootstrap.BsCarouselOptions.Touch
+  nameWithType: BsCarouselOptions.Touch
+- uid: BlazorWerks.Bootstrap.BsCarouselOptions.Touch*
+  name: Touch
+  href: api/BlazorWerks.Bootstrap.BsCarouselOptions.html#BlazorWerks_Bootstrap_BsCarouselOptions_Touch_
+  commentId: Overload:BlazorWerks.Bootstrap.BsCarouselOptions.Touch
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsCarouselOptions.Touch
+  nameWithType: BsCarouselOptions.Touch
+- uid: BlazorWerks.Bootstrap.BsCarouselOptions.Wrap
+  name: Wrap
+  href: api/BlazorWerks.Bootstrap.BsCarouselOptions.html#BlazorWerks_Bootstrap_BsCarouselOptions_Wrap
+  commentId: P:BlazorWerks.Bootstrap.BsCarouselOptions.Wrap
+  fullName: BlazorWerks.Bootstrap.BsCarouselOptions.Wrap
+  nameWithType: BsCarouselOptions.Wrap
+- uid: BlazorWerks.Bootstrap.BsCarouselOptions.Wrap*
+  name: Wrap
+  href: api/BlazorWerks.Bootstrap.BsCarouselOptions.html#BlazorWerks_Bootstrap_BsCarouselOptions_Wrap_
+  commentId: Overload:BlazorWerks.Bootstrap.BsCarouselOptions.Wrap
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsCarouselOptions.Wrap
+  nameWithType: BsCarouselOptions.Wrap
 - uid: BlazorWerks.Bootstrap.BsCollapse
   name: BsCollapse
   href: api/BlazorWerks.Bootstrap.BsCollapse.html
   commentId: T:BlazorWerks.Bootstrap.BsCollapse
   fullName: BlazorWerks.Bootstrap.BsCollapse
   nameWithType: BsCollapse
-- uid: BlazorWerks.Bootstrap.BsCollapse.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  name: BsCollapse(Object, Object, IJSRuntime)
-  href: api/BlazorWerks.Bootstrap.BsCollapse.html#BlazorWerks_Bootstrap_BsCollapse__ctor_System_Object_System_Object_Microsoft_JSInterop_IJSRuntime_
-  commentId: M:BlazorWerks.Bootstrap.BsCollapse.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  fullName: BlazorWerks.Bootstrap.BsCollapse.BsCollapse(System.Object, System.Object, Microsoft.JSInterop.IJSRuntime)
-  nameWithType: BsCollapse.BsCollapse(Object, Object, IJSRuntime)
-- uid: BlazorWerks.Bootstrap.BsCollapse.#ctor*
-  name: BsCollapse
-  href: api/BlazorWerks.Bootstrap.BsCollapse.html#BlazorWerks_Bootstrap_BsCollapse__ctor_
-  commentId: Overload:BlazorWerks.Bootstrap.BsCollapse.#ctor
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsCollapse.BsCollapse
-  nameWithType: BsCollapse.BsCollapse
 - uid: BlazorWerks.Bootstrap.BsCollapse.Hide
   name: Hide()
   href: api/BlazorWerks.Bootstrap.BsCollapse.html#BlazorWerks_Bootstrap_BsCollapse_Hide
@@ -1113,19 +1106,6 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.BsCollapse.Hide
   nameWithType: BsCollapse.Hide
-- uid: BlazorWerks.Bootstrap.BsCollapse.Name
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsCollapse.html#BlazorWerks_Bootstrap_BsCollapse_Name
-  commentId: P:BlazorWerks.Bootstrap.BsCollapse.Name
-  fullName: BlazorWerks.Bootstrap.BsCollapse.Name
-  nameWithType: BsCollapse.Name
-- uid: BlazorWerks.Bootstrap.BsCollapse.Name*
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsCollapse.html#BlazorWerks_Bootstrap_BsCollapse_Name_
-  commentId: Overload:BlazorWerks.Bootstrap.BsCollapse.Name
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsCollapse.Name
-  nameWithType: BsCollapse.Name
 - uid: BlazorWerks.Bootstrap.BsCollapse.Show
   name: Show()
   href: api/BlazorWerks.Bootstrap.BsCollapse.html#BlazorWerks_Bootstrap_BsCollapse_Show
@@ -1152,18 +1132,50 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.BsCollapse.Toggle
   nameWithType: BsCollapse.Toggle
+- uid: BlazorWerks.Bootstrap.BsCollapseOptions
+  name: BsCollapseOptions
+  href: api/BlazorWerks.Bootstrap.BsCollapseOptions.html
+  commentId: T:BlazorWerks.Bootstrap.BsCollapseOptions
+  fullName: BlazorWerks.Bootstrap.BsCollapseOptions
+  nameWithType: BsCollapseOptions
+- uid: BlazorWerks.Bootstrap.BsCollapseOptions.Parent
+  name: Parent
+  href: api/BlazorWerks.Bootstrap.BsCollapseOptions.html#BlazorWerks_Bootstrap_BsCollapseOptions_Parent
+  commentId: P:BlazorWerks.Bootstrap.BsCollapseOptions.Parent
+  fullName: BlazorWerks.Bootstrap.BsCollapseOptions.Parent
+  nameWithType: BsCollapseOptions.Parent
+- uid: BlazorWerks.Bootstrap.BsCollapseOptions.Parent*
+  name: Parent
+  href: api/BlazorWerks.Bootstrap.BsCollapseOptions.html#BlazorWerks_Bootstrap_BsCollapseOptions_Parent_
+  commentId: Overload:BlazorWerks.Bootstrap.BsCollapseOptions.Parent
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsCollapseOptions.Parent
+  nameWithType: BsCollapseOptions.Parent
+- uid: BlazorWerks.Bootstrap.BsCollapseOptions.Toggle
+  name: Toggle
+  href: api/BlazorWerks.Bootstrap.BsCollapseOptions.html#BlazorWerks_Bootstrap_BsCollapseOptions_Toggle
+  commentId: P:BlazorWerks.Bootstrap.BsCollapseOptions.Toggle
+  fullName: BlazorWerks.Bootstrap.BsCollapseOptions.Toggle
+  nameWithType: BsCollapseOptions.Toggle
+- uid: BlazorWerks.Bootstrap.BsCollapseOptions.Toggle*
+  name: Toggle
+  href: api/BlazorWerks.Bootstrap.BsCollapseOptions.html#BlazorWerks_Bootstrap_BsCollapseOptions_Toggle_
+  commentId: Overload:BlazorWerks.Bootstrap.BsCollapseOptions.Toggle
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsCollapseOptions.Toggle
+  nameWithType: BsCollapseOptions.Toggle
 - uid: BlazorWerks.Bootstrap.BsComponent
   name: BsComponent
   href: api/BlazorWerks.Bootstrap.BsComponent.html
   commentId: T:BlazorWerks.Bootstrap.BsComponent
   fullName: BlazorWerks.Bootstrap.BsComponent
   nameWithType: BsComponent
-- uid: BlazorWerks.Bootstrap.BsComponent.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  name: BsComponent(Object, Object, IJSRuntime)
-  href: api/BlazorWerks.Bootstrap.BsComponent.html#BlazorWerks_Bootstrap_BsComponent__ctor_System_Object_System_Object_Microsoft_JSInterop_IJSRuntime_
-  commentId: M:BlazorWerks.Bootstrap.BsComponent.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  fullName: BlazorWerks.Bootstrap.BsComponent.BsComponent(System.Object, System.Object, Microsoft.JSInterop.IJSRuntime)
-  nameWithType: BsComponent.BsComponent(Object, Object, IJSRuntime)
+- uid: BlazorWerks.Bootstrap.BsComponent.#ctor(System.String,System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
+  name: BsComponent(String, Object, Object, IJSRuntime)
+  href: api/BlazorWerks.Bootstrap.BsComponent.html#BlazorWerks_Bootstrap_BsComponent__ctor_System_String_System_Object_System_Object_Microsoft_JSInterop_IJSRuntime_
+  commentId: M:BlazorWerks.Bootstrap.BsComponent.#ctor(System.String,System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
+  fullName: BlazorWerks.Bootstrap.BsComponent.BsComponent(System.String, System.Object, System.Object, Microsoft.JSInterop.IJSRuntime)
+  nameWithType: BsComponent.BsComponent(String, Object, Object, IJSRuntime)
 - uid: BlazorWerks.Bootstrap.BsComponent.#ctor*
   name: BsComponent
   href: api/BlazorWerks.Bootstrap.BsComponent.html#BlazorWerks_Bootstrap_BsComponent__ctor_
@@ -1212,14 +1224,7 @@ references:
 - uid: BlazorWerks.Bootstrap.BsComponent.Name
   name: Name
   href: api/BlazorWerks.Bootstrap.BsComponent.html#BlazorWerks_Bootstrap_BsComponent_Name
-  commentId: P:BlazorWerks.Bootstrap.BsComponent.Name
-  fullName: BlazorWerks.Bootstrap.BsComponent.Name
-  nameWithType: BsComponent.Name
-- uid: BlazorWerks.Bootstrap.BsComponent.Name*
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsComponent.html#BlazorWerks_Bootstrap_BsComponent_Name_
-  commentId: Overload:BlazorWerks.Bootstrap.BsComponent.Name
-  isSpec: "True"
+  commentId: F:BlazorWerks.Bootstrap.BsComponent.Name
   fullName: BlazorWerks.Bootstrap.BsComponent.Name
   nameWithType: BsComponent.Name
 - uid: BlazorWerks.Bootstrap.BsComponent.Target
@@ -1241,19 +1246,6 @@ references:
   commentId: T:BlazorWerks.Bootstrap.BsDropdown
   fullName: BlazorWerks.Bootstrap.BsDropdown
   nameWithType: BsDropdown
-- uid: BlazorWerks.Bootstrap.BsDropdown.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  name: BsDropdown(Object, Object, IJSRuntime)
-  href: api/BlazorWerks.Bootstrap.BsDropdown.html#BlazorWerks_Bootstrap_BsDropdown__ctor_System_Object_System_Object_Microsoft_JSInterop_IJSRuntime_
-  commentId: M:BlazorWerks.Bootstrap.BsDropdown.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  fullName: BlazorWerks.Bootstrap.BsDropdown.BsDropdown(System.Object, System.Object, Microsoft.JSInterop.IJSRuntime)
-  nameWithType: BsDropdown.BsDropdown(Object, Object, IJSRuntime)
-- uid: BlazorWerks.Bootstrap.BsDropdown.#ctor*
-  name: BsDropdown
-  href: api/BlazorWerks.Bootstrap.BsDropdown.html#BlazorWerks_Bootstrap_BsDropdown__ctor_
-  commentId: Overload:BlazorWerks.Bootstrap.BsDropdown.#ctor
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsDropdown.BsDropdown
-  nameWithType: BsDropdown.BsDropdown
 - uid: BlazorWerks.Bootstrap.BsDropdown.Hide
   name: Hide()
   href: api/BlazorWerks.Bootstrap.BsDropdown.html#BlazorWerks_Bootstrap_BsDropdown_Hide
@@ -1267,19 +1259,6 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.BsDropdown.Hide
   nameWithType: BsDropdown.Hide
-- uid: BlazorWerks.Bootstrap.BsDropdown.Name
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsDropdown.html#BlazorWerks_Bootstrap_BsDropdown_Name
-  commentId: P:BlazorWerks.Bootstrap.BsDropdown.Name
-  fullName: BlazorWerks.Bootstrap.BsDropdown.Name
-  nameWithType: BsDropdown.Name
-- uid: BlazorWerks.Bootstrap.BsDropdown.Name*
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsDropdown.html#BlazorWerks_Bootstrap_BsDropdown_Name_
-  commentId: Overload:BlazorWerks.Bootstrap.BsDropdown.Name
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsDropdown.Name
-  nameWithType: BsDropdown.Name
 - uid: BlazorWerks.Bootstrap.BsDropdown.Show
   name: Show()
   href: api/BlazorWerks.Bootstrap.BsDropdown.html#BlazorWerks_Bootstrap_BsDropdown_Show
@@ -1319,25 +1298,96 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.BsDropdown.Update
   nameWithType: BsDropdown.Update
+- uid: BlazorWerks.Bootstrap.BsDropdownOptions
+  name: BsDropdownOptions
+  href: api/BlazorWerks.Bootstrap.BsDropdownOptions.html
+  commentId: T:BlazorWerks.Bootstrap.BsDropdownOptions
+  fullName: BlazorWerks.Bootstrap.BsDropdownOptions
+  nameWithType: BsDropdownOptions
+- uid: BlazorWerks.Bootstrap.BsDropdownOptions.AutoClose
+  name: AutoClose
+  href: api/BlazorWerks.Bootstrap.BsDropdownOptions.html#BlazorWerks_Bootstrap_BsDropdownOptions_AutoClose
+  commentId: P:BlazorWerks.Bootstrap.BsDropdownOptions.AutoClose
+  fullName: BlazorWerks.Bootstrap.BsDropdownOptions.AutoClose
+  nameWithType: BsDropdownOptions.AutoClose
+- uid: BlazorWerks.Bootstrap.BsDropdownOptions.AutoClose*
+  name: AutoClose
+  href: api/BlazorWerks.Bootstrap.BsDropdownOptions.html#BlazorWerks_Bootstrap_BsDropdownOptions_AutoClose_
+  commentId: Overload:BlazorWerks.Bootstrap.BsDropdownOptions.AutoClose
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsDropdownOptions.AutoClose
+  nameWithType: BsDropdownOptions.AutoClose
+- uid: BlazorWerks.Bootstrap.BsDropdownOptions.Boundary
+  name: Boundary
+  href: api/BlazorWerks.Bootstrap.BsDropdownOptions.html#BlazorWerks_Bootstrap_BsDropdownOptions_Boundary
+  commentId: P:BlazorWerks.Bootstrap.BsDropdownOptions.Boundary
+  fullName: BlazorWerks.Bootstrap.BsDropdownOptions.Boundary
+  nameWithType: BsDropdownOptions.Boundary
+- uid: BlazorWerks.Bootstrap.BsDropdownOptions.Boundary*
+  name: Boundary
+  href: api/BlazorWerks.Bootstrap.BsDropdownOptions.html#BlazorWerks_Bootstrap_BsDropdownOptions_Boundary_
+  commentId: Overload:BlazorWerks.Bootstrap.BsDropdownOptions.Boundary
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsDropdownOptions.Boundary
+  nameWithType: BsDropdownOptions.Boundary
+- uid: BlazorWerks.Bootstrap.BsDropdownOptions.Display
+  name: Display
+  href: api/BlazorWerks.Bootstrap.BsDropdownOptions.html#BlazorWerks_Bootstrap_BsDropdownOptions_Display
+  commentId: P:BlazorWerks.Bootstrap.BsDropdownOptions.Display
+  fullName: BlazorWerks.Bootstrap.BsDropdownOptions.Display
+  nameWithType: BsDropdownOptions.Display
+- uid: BlazorWerks.Bootstrap.BsDropdownOptions.Display*
+  name: Display
+  href: api/BlazorWerks.Bootstrap.BsDropdownOptions.html#BlazorWerks_Bootstrap_BsDropdownOptions_Display_
+  commentId: Overload:BlazorWerks.Bootstrap.BsDropdownOptions.Display
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsDropdownOptions.Display
+  nameWithType: BsDropdownOptions.Display
+- uid: BlazorWerks.Bootstrap.BsDropdownOptions.Offset
+  name: Offset
+  href: api/BlazorWerks.Bootstrap.BsDropdownOptions.html#BlazorWerks_Bootstrap_BsDropdownOptions_Offset
+  commentId: P:BlazorWerks.Bootstrap.BsDropdownOptions.Offset
+  fullName: BlazorWerks.Bootstrap.BsDropdownOptions.Offset
+  nameWithType: BsDropdownOptions.Offset
+- uid: BlazorWerks.Bootstrap.BsDropdownOptions.Offset*
+  name: Offset
+  href: api/BlazorWerks.Bootstrap.BsDropdownOptions.html#BlazorWerks_Bootstrap_BsDropdownOptions_Offset_
+  commentId: Overload:BlazorWerks.Bootstrap.BsDropdownOptions.Offset
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsDropdownOptions.Offset
+  nameWithType: BsDropdownOptions.Offset
+- uid: BlazorWerks.Bootstrap.BsDropdownOptions.PopperConfig
+  name: PopperConfig
+  href: api/BlazorWerks.Bootstrap.BsDropdownOptions.html#BlazorWerks_Bootstrap_BsDropdownOptions_PopperConfig
+  commentId: P:BlazorWerks.Bootstrap.BsDropdownOptions.PopperConfig
+  fullName: BlazorWerks.Bootstrap.BsDropdownOptions.PopperConfig
+  nameWithType: BsDropdownOptions.PopperConfig
+- uid: BlazorWerks.Bootstrap.BsDropdownOptions.PopperConfig*
+  name: PopperConfig
+  href: api/BlazorWerks.Bootstrap.BsDropdownOptions.html#BlazorWerks_Bootstrap_BsDropdownOptions_PopperConfig_
+  commentId: Overload:BlazorWerks.Bootstrap.BsDropdownOptions.PopperConfig
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsDropdownOptions.PopperConfig
+  nameWithType: BsDropdownOptions.PopperConfig
+- uid: BlazorWerks.Bootstrap.BsDropdownOptions.Reference
+  name: Reference
+  href: api/BlazorWerks.Bootstrap.BsDropdownOptions.html#BlazorWerks_Bootstrap_BsDropdownOptions_Reference
+  commentId: P:BlazorWerks.Bootstrap.BsDropdownOptions.Reference
+  fullName: BlazorWerks.Bootstrap.BsDropdownOptions.Reference
+  nameWithType: BsDropdownOptions.Reference
+- uid: BlazorWerks.Bootstrap.BsDropdownOptions.Reference*
+  name: Reference
+  href: api/BlazorWerks.Bootstrap.BsDropdownOptions.html#BlazorWerks_Bootstrap_BsDropdownOptions_Reference_
+  commentId: Overload:BlazorWerks.Bootstrap.BsDropdownOptions.Reference
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsDropdownOptions.Reference
+  nameWithType: BsDropdownOptions.Reference
 - uid: BlazorWerks.Bootstrap.BsModal
   name: BsModal
   href: api/BlazorWerks.Bootstrap.BsModal.html
   commentId: T:BlazorWerks.Bootstrap.BsModal
   fullName: BlazorWerks.Bootstrap.BsModal
   nameWithType: BsModal
-- uid: BlazorWerks.Bootstrap.BsModal.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  name: BsModal(Object, Object, IJSRuntime)
-  href: api/BlazorWerks.Bootstrap.BsModal.html#BlazorWerks_Bootstrap_BsModal__ctor_System_Object_System_Object_Microsoft_JSInterop_IJSRuntime_
-  commentId: M:BlazorWerks.Bootstrap.BsModal.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  fullName: BlazorWerks.Bootstrap.BsModal.BsModal(System.Object, System.Object, Microsoft.JSInterop.IJSRuntime)
-  nameWithType: BsModal.BsModal(Object, Object, IJSRuntime)
-- uid: BlazorWerks.Bootstrap.BsModal.#ctor*
-  name: BsModal
-  href: api/BlazorWerks.Bootstrap.BsModal.html#BlazorWerks_Bootstrap_BsModal__ctor_
-  commentId: Overload:BlazorWerks.Bootstrap.BsModal.#ctor
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsModal.BsModal
-  nameWithType: BsModal.BsModal
 - uid: BlazorWerks.Bootstrap.BsModal.HandleUpdate
   name: HandleUpdate()
   href: api/BlazorWerks.Bootstrap.BsModal.html#BlazorWerks_Bootstrap_BsModal_HandleUpdate
@@ -1364,19 +1414,6 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.BsModal.Hide
   nameWithType: BsModal.Hide
-- uid: BlazorWerks.Bootstrap.BsModal.Name
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsModal.html#BlazorWerks_Bootstrap_BsModal_Name
-  commentId: P:BlazorWerks.Bootstrap.BsModal.Name
-  fullName: BlazorWerks.Bootstrap.BsModal.Name
-  nameWithType: BsModal.Name
-- uid: BlazorWerks.Bootstrap.BsModal.Name*
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsModal.html#BlazorWerks_Bootstrap_BsModal_Name_
-  commentId: Overload:BlazorWerks.Bootstrap.BsModal.Name
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsModal.Name
-  nameWithType: BsModal.Name
 - uid: BlazorWerks.Bootstrap.BsModal.Show
   name: Show()
   href: api/BlazorWerks.Bootstrap.BsModal.html#BlazorWerks_Bootstrap_BsModal_Show
@@ -1403,25 +1440,57 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.BsModal.Toggle
   nameWithType: BsModal.Toggle
+- uid: BlazorWerks.Bootstrap.BsModalOptions
+  name: BsModalOptions
+  href: api/BlazorWerks.Bootstrap.BsModalOptions.html
+  commentId: T:BlazorWerks.Bootstrap.BsModalOptions
+  fullName: BlazorWerks.Bootstrap.BsModalOptions
+  nameWithType: BsModalOptions
+- uid: BlazorWerks.Bootstrap.BsModalOptions.Backdrop
+  name: Backdrop
+  href: api/BlazorWerks.Bootstrap.BsModalOptions.html#BlazorWerks_Bootstrap_BsModalOptions_Backdrop
+  commentId: P:BlazorWerks.Bootstrap.BsModalOptions.Backdrop
+  fullName: BlazorWerks.Bootstrap.BsModalOptions.Backdrop
+  nameWithType: BsModalOptions.Backdrop
+- uid: BlazorWerks.Bootstrap.BsModalOptions.Backdrop*
+  name: Backdrop
+  href: api/BlazorWerks.Bootstrap.BsModalOptions.html#BlazorWerks_Bootstrap_BsModalOptions_Backdrop_
+  commentId: Overload:BlazorWerks.Bootstrap.BsModalOptions.Backdrop
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsModalOptions.Backdrop
+  nameWithType: BsModalOptions.Backdrop
+- uid: BlazorWerks.Bootstrap.BsModalOptions.Focus
+  name: Focus
+  href: api/BlazorWerks.Bootstrap.BsModalOptions.html#BlazorWerks_Bootstrap_BsModalOptions_Focus
+  commentId: P:BlazorWerks.Bootstrap.BsModalOptions.Focus
+  fullName: BlazorWerks.Bootstrap.BsModalOptions.Focus
+  nameWithType: BsModalOptions.Focus
+- uid: BlazorWerks.Bootstrap.BsModalOptions.Focus*
+  name: Focus
+  href: api/BlazorWerks.Bootstrap.BsModalOptions.html#BlazorWerks_Bootstrap_BsModalOptions_Focus_
+  commentId: Overload:BlazorWerks.Bootstrap.BsModalOptions.Focus
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsModalOptions.Focus
+  nameWithType: BsModalOptions.Focus
+- uid: BlazorWerks.Bootstrap.BsModalOptions.Keyboard
+  name: Keyboard
+  href: api/BlazorWerks.Bootstrap.BsModalOptions.html#BlazorWerks_Bootstrap_BsModalOptions_Keyboard
+  commentId: P:BlazorWerks.Bootstrap.BsModalOptions.Keyboard
+  fullName: BlazorWerks.Bootstrap.BsModalOptions.Keyboard
+  nameWithType: BsModalOptions.Keyboard
+- uid: BlazorWerks.Bootstrap.BsModalOptions.Keyboard*
+  name: Keyboard
+  href: api/BlazorWerks.Bootstrap.BsModalOptions.html#BlazorWerks_Bootstrap_BsModalOptions_Keyboard_
+  commentId: Overload:BlazorWerks.Bootstrap.BsModalOptions.Keyboard
+  isSpec: "True"
+  fullName: BlazorWerks.Bootstrap.BsModalOptions.Keyboard
+  nameWithType: BsModalOptions.Keyboard
 - uid: BlazorWerks.Bootstrap.BsOffcanvas
   name: BsOffcanvas
   href: api/BlazorWerks.Bootstrap.BsOffcanvas.html
   commentId: T:BlazorWerks.Bootstrap.BsOffcanvas
   fullName: BlazorWerks.Bootstrap.BsOffcanvas
   nameWithType: BsOffcanvas
-- uid: BlazorWerks.Bootstrap.BsOffcanvas.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  name: BsOffcanvas(Object, Object, IJSRuntime)
-  href: api/BlazorWerks.Bootstrap.BsOffcanvas.html#BlazorWerks_Bootstrap_BsOffcanvas__ctor_System_Object_System_Object_Microsoft_JSInterop_IJSRuntime_
-  commentId: M:BlazorWerks.Bootstrap.BsOffcanvas.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  fullName: BlazorWerks.Bootstrap.BsOffcanvas.BsOffcanvas(System.Object, System.Object, Microsoft.JSInterop.IJSRuntime)
-  nameWithType: BsOffcanvas.BsOffcanvas(Object, Object, IJSRuntime)
-- uid: BlazorWerks.Bootstrap.BsOffcanvas.#ctor*
-  name: BsOffcanvas
-  href: api/BlazorWerks.Bootstrap.BsOffcanvas.html#BlazorWerks_Bootstrap_BsOffcanvas__ctor_
-  commentId: Overload:BlazorWerks.Bootstrap.BsOffcanvas.#ctor
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsOffcanvas.BsOffcanvas
-  nameWithType: BsOffcanvas.BsOffcanvas
 - uid: BlazorWerks.Bootstrap.BsOffcanvas.Hide
   name: Hide()
   href: api/BlazorWerks.Bootstrap.BsOffcanvas.html#BlazorWerks_Bootstrap_BsOffcanvas_Hide
@@ -1435,19 +1504,6 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.BsOffcanvas.Hide
   nameWithType: BsOffcanvas.Hide
-- uid: BlazorWerks.Bootstrap.BsOffcanvas.Name
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsOffcanvas.html#BlazorWerks_Bootstrap_BsOffcanvas_Name
-  commentId: P:BlazorWerks.Bootstrap.BsOffcanvas.Name
-  fullName: BlazorWerks.Bootstrap.BsOffcanvas.Name
-  nameWithType: BsOffcanvas.Name
-- uid: BlazorWerks.Bootstrap.BsOffcanvas.Name*
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsOffcanvas.html#BlazorWerks_Bootstrap_BsOffcanvas_Name_
-  commentId: Overload:BlazorWerks.Bootstrap.BsOffcanvas.Name
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsOffcanvas.Name
-  nameWithType: BsOffcanvas.Name
 - uid: BlazorWerks.Bootstrap.BsOffcanvas.Show
   name: Show()
   href: api/BlazorWerks.Bootstrap.BsOffcanvas.html#BlazorWerks_Bootstrap_BsOffcanvas_Show
@@ -1480,19 +1536,6 @@ references:
   commentId: T:BlazorWerks.Bootstrap.BsPopover
   fullName: BlazorWerks.Bootstrap.BsPopover
   nameWithType: BsPopover
-- uid: BlazorWerks.Bootstrap.BsPopover.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  name: BsPopover(Object, Object, IJSRuntime)
-  href: api/BlazorWerks.Bootstrap.BsPopover.html#BlazorWerks_Bootstrap_BsPopover__ctor_System_Object_System_Object_Microsoft_JSInterop_IJSRuntime_
-  commentId: M:BlazorWerks.Bootstrap.BsPopover.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  fullName: BlazorWerks.Bootstrap.BsPopover.BsPopover(System.Object, System.Object, Microsoft.JSInterop.IJSRuntime)
-  nameWithType: BsPopover.BsPopover(Object, Object, IJSRuntime)
-- uid: BlazorWerks.Bootstrap.BsPopover.#ctor*
-  name: BsPopover
-  href: api/BlazorWerks.Bootstrap.BsPopover.html#BlazorWerks_Bootstrap_BsPopover__ctor_
-  commentId: Overload:BlazorWerks.Bootstrap.BsPopover.#ctor
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsPopover.BsPopover
-  nameWithType: BsPopover.BsPopover
 - uid: BlazorWerks.Bootstrap.BsPopover.Disable
   name: Disable()
   href: api/BlazorWerks.Bootstrap.BsPopover.html#BlazorWerks_Bootstrap_BsPopover_Disable
@@ -1532,19 +1575,6 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.BsPopover.Hide
   nameWithType: BsPopover.Hide
-- uid: BlazorWerks.Bootstrap.BsPopover.Name
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsPopover.html#BlazorWerks_Bootstrap_BsPopover_Name
-  commentId: P:BlazorWerks.Bootstrap.BsPopover.Name
-  fullName: BlazorWerks.Bootstrap.BsPopover.Name
-  nameWithType: BsPopover.Name
-- uid: BlazorWerks.Bootstrap.BsPopover.Name*
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsPopover.html#BlazorWerks_Bootstrap_BsPopover_Name_
-  commentId: Overload:BlazorWerks.Bootstrap.BsPopover.Name
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsPopover.Name
-  nameWithType: BsPopover.Name
 - uid: BlazorWerks.Bootstrap.BsPopover.Show
   name: Show()
   href: api/BlazorWerks.Bootstrap.BsPopover.html#BlazorWerks_Bootstrap_BsPopover_Show
@@ -1603,32 +1633,6 @@ references:
   commentId: T:BlazorWerks.Bootstrap.BsScrollSpy
   fullName: BlazorWerks.Bootstrap.BsScrollSpy
   nameWithType: BsScrollSpy
-- uid: BlazorWerks.Bootstrap.BsScrollSpy.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  name: BsScrollSpy(Object, Object, IJSRuntime)
-  href: api/BlazorWerks.Bootstrap.BsScrollSpy.html#BlazorWerks_Bootstrap_BsScrollSpy__ctor_System_Object_System_Object_Microsoft_JSInterop_IJSRuntime_
-  commentId: M:BlazorWerks.Bootstrap.BsScrollSpy.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  fullName: BlazorWerks.Bootstrap.BsScrollSpy.BsScrollSpy(System.Object, System.Object, Microsoft.JSInterop.IJSRuntime)
-  nameWithType: BsScrollSpy.BsScrollSpy(Object, Object, IJSRuntime)
-- uid: BlazorWerks.Bootstrap.BsScrollSpy.#ctor*
-  name: BsScrollSpy
-  href: api/BlazorWerks.Bootstrap.BsScrollSpy.html#BlazorWerks_Bootstrap_BsScrollSpy__ctor_
-  commentId: Overload:BlazorWerks.Bootstrap.BsScrollSpy.#ctor
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsScrollSpy.BsScrollSpy
-  nameWithType: BsScrollSpy.BsScrollSpy
-- uid: BlazorWerks.Bootstrap.BsScrollSpy.Name
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsScrollSpy.html#BlazorWerks_Bootstrap_BsScrollSpy_Name
-  commentId: P:BlazorWerks.Bootstrap.BsScrollSpy.Name
-  fullName: BlazorWerks.Bootstrap.BsScrollSpy.Name
-  nameWithType: BsScrollSpy.Name
-- uid: BlazorWerks.Bootstrap.BsScrollSpy.Name*
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsScrollSpy.html#BlazorWerks_Bootstrap_BsScrollSpy_Name_
-  commentId: Overload:BlazorWerks.Bootstrap.BsScrollSpy.Name
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsScrollSpy.Name
-  nameWithType: BsScrollSpy.Name
 - uid: BlazorWerks.Bootstrap.BsScrollSpy.Refresh
   name: Refresh()
   href: api/BlazorWerks.Bootstrap.BsScrollSpy.html#BlazorWerks_Bootstrap_BsScrollSpy_Refresh
@@ -1648,32 +1652,6 @@ references:
   commentId: T:BlazorWerks.Bootstrap.BsTab
   fullName: BlazorWerks.Bootstrap.BsTab
   nameWithType: BsTab
-- uid: BlazorWerks.Bootstrap.BsTab.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  name: BsTab(Object, Object, IJSRuntime)
-  href: api/BlazorWerks.Bootstrap.BsTab.html#BlazorWerks_Bootstrap_BsTab__ctor_System_Object_System_Object_Microsoft_JSInterop_IJSRuntime_
-  commentId: M:BlazorWerks.Bootstrap.BsTab.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  fullName: BlazorWerks.Bootstrap.BsTab.BsTab(System.Object, System.Object, Microsoft.JSInterop.IJSRuntime)
-  nameWithType: BsTab.BsTab(Object, Object, IJSRuntime)
-- uid: BlazorWerks.Bootstrap.BsTab.#ctor*
-  name: BsTab
-  href: api/BlazorWerks.Bootstrap.BsTab.html#BlazorWerks_Bootstrap_BsTab__ctor_
-  commentId: Overload:BlazorWerks.Bootstrap.BsTab.#ctor
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsTab.BsTab
-  nameWithType: BsTab.BsTab
-- uid: BlazorWerks.Bootstrap.BsTab.Name
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsTab.html#BlazorWerks_Bootstrap_BsTab_Name
-  commentId: P:BlazorWerks.Bootstrap.BsTab.Name
-  fullName: BlazorWerks.Bootstrap.BsTab.Name
-  nameWithType: BsTab.Name
-- uid: BlazorWerks.Bootstrap.BsTab.Name*
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsTab.html#BlazorWerks_Bootstrap_BsTab_Name_
-  commentId: Overload:BlazorWerks.Bootstrap.BsTab.Name
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsTab.Name
-  nameWithType: BsTab.Name
 - uid: BlazorWerks.Bootstrap.BsTab.Show
   name: Show()
   href: api/BlazorWerks.Bootstrap.BsTab.html#BlazorWerks_Bootstrap_BsTab_Show
@@ -1719,19 +1697,6 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.BsToast.Hide
   nameWithType: BsToast.Hide
-- uid: BlazorWerks.Bootstrap.BsToast.Name
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsToast.html#BlazorWerks_Bootstrap_BsToast_Name
-  commentId: P:BlazorWerks.Bootstrap.BsToast.Name
-  fullName: BlazorWerks.Bootstrap.BsToast.Name
-  nameWithType: BsToast.Name
-- uid: BlazorWerks.Bootstrap.BsToast.Name*
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsToast.html#BlazorWerks_Bootstrap_BsToast_Name_
-  commentId: Overload:BlazorWerks.Bootstrap.BsToast.Name
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsToast.Name
-  nameWithType: BsToast.Name
 - uid: BlazorWerks.Bootstrap.BsToast.Show
   name: Show()
   href: api/BlazorWerks.Bootstrap.BsToast.html#BlazorWerks_Bootstrap_BsToast_Show
@@ -1751,19 +1716,6 @@ references:
   commentId: T:BlazorWerks.Bootstrap.BsTooltip
   fullName: BlazorWerks.Bootstrap.BsTooltip
   nameWithType: BsTooltip
-- uid: BlazorWerks.Bootstrap.BsTooltip.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  name: BsTooltip(Object, Object, IJSRuntime)
-  href: api/BlazorWerks.Bootstrap.BsTooltip.html#BlazorWerks_Bootstrap_BsTooltip__ctor_System_Object_System_Object_Microsoft_JSInterop_IJSRuntime_
-  commentId: M:BlazorWerks.Bootstrap.BsTooltip.#ctor(System.Object,System.Object,Microsoft.JSInterop.IJSRuntime)
-  fullName: BlazorWerks.Bootstrap.BsTooltip.BsTooltip(System.Object, System.Object, Microsoft.JSInterop.IJSRuntime)
-  nameWithType: BsTooltip.BsTooltip(Object, Object, IJSRuntime)
-- uid: BlazorWerks.Bootstrap.BsTooltip.#ctor*
-  name: BsTooltip
-  href: api/BlazorWerks.Bootstrap.BsTooltip.html#BlazorWerks_Bootstrap_BsTooltip__ctor_
-  commentId: Overload:BlazorWerks.Bootstrap.BsTooltip.#ctor
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsTooltip.BsTooltip
-  nameWithType: BsTooltip.BsTooltip
 - uid: BlazorWerks.Bootstrap.BsTooltip.Disable
   name: Disable()
   href: api/BlazorWerks.Bootstrap.BsTooltip.html#BlazorWerks_Bootstrap_BsTooltip_Disable
@@ -1803,19 +1755,6 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.BsTooltip.Hide
   nameWithType: BsTooltip.Hide
-- uid: BlazorWerks.Bootstrap.BsTooltip.Name
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsTooltip.html#BlazorWerks_Bootstrap_BsTooltip_Name
-  commentId: P:BlazorWerks.Bootstrap.BsTooltip.Name
-  fullName: BlazorWerks.Bootstrap.BsTooltip.Name
-  nameWithType: BsTooltip.Name
-- uid: BlazorWerks.Bootstrap.BsTooltip.Name*
-  name: Name
-  href: api/BlazorWerks.Bootstrap.BsTooltip.html#BlazorWerks_Bootstrap_BsTooltip_Name_
-  commentId: Overload:BlazorWerks.Bootstrap.BsTooltip.Name
-  isSpec: "True"
-  fullName: BlazorWerks.Bootstrap.BsTooltip.Name
-  nameWithType: BsTooltip.Name
 - uid: BlazorWerks.Bootstrap.BsTooltip.Show
   name: Show()
   href: api/BlazorWerks.Bootstrap.BsTooltip.html#BlazorWerks_Bootstrap_BsTooltip_Show
@@ -1874,12 +1813,12 @@ references:
   commentId: T:BlazorWerks.Bootstrap.ElementReferenceExtensions
   fullName: BlazorWerks.Bootstrap.ElementReferenceExtensions
   nameWithType: ElementReferenceExtensions
-- uid: BlazorWerks.Bootstrap.ElementReferenceExtensions.Alert(Microsoft.AspNetCore.Components.ElementReference,System.Object)
-  name: Alert(ElementReference, Object)
-  href: api/BlazorWerks.Bootstrap.ElementReferenceExtensions.html#BlazorWerks_Bootstrap_ElementReferenceExtensions_Alert_Microsoft_AspNetCore_Components_ElementReference_System_Object_
-  commentId: M:BlazorWerks.Bootstrap.ElementReferenceExtensions.Alert(Microsoft.AspNetCore.Components.ElementReference,System.Object)
-  fullName: BlazorWerks.Bootstrap.ElementReferenceExtensions.Alert(Microsoft.AspNetCore.Components.ElementReference, System.Object)
-  nameWithType: ElementReferenceExtensions.Alert(ElementReference, Object)
+- uid: BlazorWerks.Bootstrap.ElementReferenceExtensions.Alert(Microsoft.AspNetCore.Components.ElementReference)
+  name: Alert(ElementReference)
+  href: api/BlazorWerks.Bootstrap.ElementReferenceExtensions.html#BlazorWerks_Bootstrap_ElementReferenceExtensions_Alert_Microsoft_AspNetCore_Components_ElementReference_
+  commentId: M:BlazorWerks.Bootstrap.ElementReferenceExtensions.Alert(Microsoft.AspNetCore.Components.ElementReference)
+  fullName: BlazorWerks.Bootstrap.ElementReferenceExtensions.Alert(Microsoft.AspNetCore.Components.ElementReference)
+  nameWithType: ElementReferenceExtensions.Alert(ElementReference)
 - uid: BlazorWerks.Bootstrap.ElementReferenceExtensions.Alert*
   name: Alert
   href: api/BlazorWerks.Bootstrap.ElementReferenceExtensions.html#BlazorWerks_Bootstrap_ElementReferenceExtensions_Alert_
@@ -2042,12 +1981,12 @@ references:
   commentId: T:BlazorWerks.Bootstrap.IBootstrap
   fullName: BlazorWerks.Bootstrap.IBootstrap
   nameWithType: IBootstrap
-- uid: BlazorWerks.Bootstrap.IBootstrap.Alert(System.Object,System.Object)
-  name: Alert(Object, Object)
-  href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Alert_System_Object_System_Object_
-  commentId: M:BlazorWerks.Bootstrap.IBootstrap.Alert(System.Object,System.Object)
-  fullName: BlazorWerks.Bootstrap.IBootstrap.Alert(System.Object, System.Object)
-  nameWithType: IBootstrap.Alert(Object, Object)
+- uid: BlazorWerks.Bootstrap.IBootstrap.Alert(System.Object)
+  name: Alert(Object)
+  href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Alert_System_Object_
+  commentId: M:BlazorWerks.Bootstrap.IBootstrap.Alert(System.Object)
+  fullName: BlazorWerks.Bootstrap.IBootstrap.Alert(System.Object)
+  nameWithType: IBootstrap.Alert(Object)
 - uid: BlazorWerks.Bootstrap.IBootstrap.Alert*
   name: Alert
   href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Alert_
@@ -2055,12 +1994,12 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.IBootstrap.Alert
   nameWithType: IBootstrap.Alert
-- uid: BlazorWerks.Bootstrap.IBootstrap.Button(System.Object,System.Object)
-  name: Button(Object, Object)
-  href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Button_System_Object_System_Object_
-  commentId: M:BlazorWerks.Bootstrap.IBootstrap.Button(System.Object,System.Object)
-  fullName: BlazorWerks.Bootstrap.IBootstrap.Button(System.Object, System.Object)
-  nameWithType: IBootstrap.Button(Object, Object)
+- uid: BlazorWerks.Bootstrap.IBootstrap.Button(System.Object)
+  name: Button(Object)
+  href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Button_System_Object_
+  commentId: M:BlazorWerks.Bootstrap.IBootstrap.Button(System.Object)
+  fullName: BlazorWerks.Bootstrap.IBootstrap.Button(System.Object)
+  nameWithType: IBootstrap.Button(Object)
 - uid: BlazorWerks.Bootstrap.IBootstrap.Button*
   name: Button
   href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Button_
@@ -2068,12 +2007,12 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.IBootstrap.Button
   nameWithType: IBootstrap.Button
-- uid: BlazorWerks.Bootstrap.IBootstrap.Carousel(System.Object,System.Object)
-  name: Carousel(Object, Object)
-  href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Carousel_System_Object_System_Object_
-  commentId: M:BlazorWerks.Bootstrap.IBootstrap.Carousel(System.Object,System.Object)
-  fullName: BlazorWerks.Bootstrap.IBootstrap.Carousel(System.Object, System.Object)
-  nameWithType: IBootstrap.Carousel(Object, Object)
+- uid: BlazorWerks.Bootstrap.IBootstrap.Carousel(System.Object,BlazorWerks.Bootstrap.BsCarouselOptions)
+  name: Carousel(Object, BsCarouselOptions)
+  href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Carousel_System_Object_BlazorWerks_Bootstrap_BsCarouselOptions_
+  commentId: M:BlazorWerks.Bootstrap.IBootstrap.Carousel(System.Object,BlazorWerks.Bootstrap.BsCarouselOptions)
+  fullName: BlazorWerks.Bootstrap.IBootstrap.Carousel(System.Object, BlazorWerks.Bootstrap.BsCarouselOptions)
+  nameWithType: IBootstrap.Carousel(Object, BsCarouselOptions)
 - uid: BlazorWerks.Bootstrap.IBootstrap.Carousel*
   name: Carousel
   href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Carousel_
@@ -2081,12 +2020,12 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.IBootstrap.Carousel
   nameWithType: IBootstrap.Carousel
-- uid: BlazorWerks.Bootstrap.IBootstrap.Collapse(System.Object,System.Object)
-  name: Collapse(Object, Object)
-  href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Collapse_System_Object_System_Object_
-  commentId: M:BlazorWerks.Bootstrap.IBootstrap.Collapse(System.Object,System.Object)
-  fullName: BlazorWerks.Bootstrap.IBootstrap.Collapse(System.Object, System.Object)
-  nameWithType: IBootstrap.Collapse(Object, Object)
+- uid: BlazorWerks.Bootstrap.IBootstrap.Collapse(System.Object,BlazorWerks.Bootstrap.BsCollapseOptions)
+  name: Collapse(Object, BsCollapseOptions)
+  href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Collapse_System_Object_BlazorWerks_Bootstrap_BsCollapseOptions_
+  commentId: M:BlazorWerks.Bootstrap.IBootstrap.Collapse(System.Object,BlazorWerks.Bootstrap.BsCollapseOptions)
+  fullName: BlazorWerks.Bootstrap.IBootstrap.Collapse(System.Object, BlazorWerks.Bootstrap.BsCollapseOptions)
+  nameWithType: IBootstrap.Collapse(Object, BsCollapseOptions)
 - uid: BlazorWerks.Bootstrap.IBootstrap.Collapse*
   name: Collapse
   href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Collapse_
@@ -2094,12 +2033,12 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.IBootstrap.Collapse
   nameWithType: IBootstrap.Collapse
-- uid: BlazorWerks.Bootstrap.IBootstrap.Dropdown(System.Object,System.Object)
-  name: Dropdown(Object, Object)
-  href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Dropdown_System_Object_System_Object_
-  commentId: M:BlazorWerks.Bootstrap.IBootstrap.Dropdown(System.Object,System.Object)
-  fullName: BlazorWerks.Bootstrap.IBootstrap.Dropdown(System.Object, System.Object)
-  nameWithType: IBootstrap.Dropdown(Object, Object)
+- uid: BlazorWerks.Bootstrap.IBootstrap.Dropdown(System.Object,BlazorWerks.Bootstrap.BsDropdownOptions)
+  name: Dropdown(Object, BsDropdownOptions)
+  href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Dropdown_System_Object_BlazorWerks_Bootstrap_BsDropdownOptions_
+  commentId: M:BlazorWerks.Bootstrap.IBootstrap.Dropdown(System.Object,BlazorWerks.Bootstrap.BsDropdownOptions)
+  fullName: BlazorWerks.Bootstrap.IBootstrap.Dropdown(System.Object, BlazorWerks.Bootstrap.BsDropdownOptions)
+  nameWithType: IBootstrap.Dropdown(Object, BsDropdownOptions)
 - uid: BlazorWerks.Bootstrap.IBootstrap.Dropdown*
   name: Dropdown
   href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Dropdown_
@@ -2107,12 +2046,12 @@ references:
   isSpec: "True"
   fullName: BlazorWerks.Bootstrap.IBootstrap.Dropdown
   nameWithType: IBootstrap.Dropdown
-- uid: BlazorWerks.Bootstrap.IBootstrap.Modal(System.Object,System.Object)
-  name: Modal(Object, Object)
-  href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Modal_System_Object_System_Object_
-  commentId: M:BlazorWerks.Bootstrap.IBootstrap.Modal(System.Object,System.Object)
-  fullName: BlazorWerks.Bootstrap.IBootstrap.Modal(System.Object, System.Object)
-  nameWithType: IBootstrap.Modal(Object, Object)
+- uid: BlazorWerks.Bootstrap.IBootstrap.Modal(System.Object,BlazorWerks.Bootstrap.BsModalOptions)
+  name: Modal(Object, BsModalOptions)
+  href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Modal_System_Object_BlazorWerks_Bootstrap_BsModalOptions_
+  commentId: M:BlazorWerks.Bootstrap.IBootstrap.Modal(System.Object,BlazorWerks.Bootstrap.BsModalOptions)
+  fullName: BlazorWerks.Bootstrap.IBootstrap.Modal(System.Object, BlazorWerks.Bootstrap.BsModalOptions)
+  nameWithType: IBootstrap.Modal(Object, BsModalOptions)
 - uid: BlazorWerks.Bootstrap.IBootstrap.Modal*
   name: Modal
   href: api/BlazorWerks.Bootstrap.IBootstrap.html#BlazorWerks_Bootstrap_IBootstrap_Modal_
