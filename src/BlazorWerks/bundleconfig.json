@@ -4,10 +4,10 @@
 */
 [
   {
-    "outputFileName": "wwwroot/bt.bundle.js",
+    "outputFileName": "wwwroot/bwerks.bundle.js",
     "inputFiles": [
-      "Scripts/bt-bootstrap.js",
-      "Scripts/bt-webstorage.js"
+      "Scripts/bwerks-bootstrap.js",
+      "Scripts/bwerks-webstorage.js"
     ],
     "minify": {
       "enabled": true,

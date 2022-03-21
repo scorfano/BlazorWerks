@@ -5,299 +5,11 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.Bootstrap.yml",
+      "source_relative_path": "api/BlazorWerks.ServiceCollectionExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.Bootstrap.html",
-          "hash": "1I//vODugyVtszxxgNJKitukYjm4DOXj/RkQ3iBQBLs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BootstrapEventArgs.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BootstrapEventArgs.html",
-          "hash": "2DlFm9OV8Htck4qn0EyR6flOiDelQYTFoEPWgO8GfQQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BootstrapEvents.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BootstrapEvents.html",
-          "hash": "t6iUPUGtIUqVfyfsUJSxUHBJLQ+dw6QYT/txqRird0s="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsAlert.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsAlert.html",
-          "hash": "hztlAlOxUrKmoQZ7USdHOFqjk+89SD0B5HzlYd4OT54="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsButton.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsButton.html",
-          "hash": "GWvAtw9I7frnrgS6k9Fe1F55b6tmHMjBs9jl8KM2kOA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsCarousel.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsCarousel.html",
-          "hash": "OSCV5ZC8SgCDF2IShqon5ljjYV44ZKN05XPq2WBMmtw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsCarouselOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsCarouselOptions.html",
-          "hash": "8yEKDoGg2Ft53neMTw7WbuLUJa5PWRVAigqhnVqM3sA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsCollapse.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsCollapse.html",
-          "hash": "rKM8Meic7+b/rd78zw/tj7KWa1rLS+ak4uZT1XuCB0w="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsCollapseOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsCollapseOptions.html",
-          "hash": "3SEsMcoNuxkBFiiStr+Z3ccpX8Z/oceXZzY6RzBOixk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsComponent.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsComponent.html",
-          "hash": "aPch+i2d69gw73UgsNU8jJcC/6kAh6o2qua8CSPathM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsDropdown.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsDropdown.html",
-          "hash": "BBetZzu+FAOHscDfVaMZRPR6dACAx51Bgn+M/1xMOHg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsDropdownOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsDropdownOptions.html",
-          "hash": "SysKbrBoqcd/ALR2Affvzoh/a+OvgJ66MtQmP/j83jc="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsModal.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsModal.html",
-          "hash": "4G9kg+wphpU6A6SpqUgKP/zGbrwxJ20j5EfIqO4hT0g="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsModalOptions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsModalOptions.html",
-          "hash": "5ibQwDPlhUQ1oywA/X9M4Hf2TZENab6s1wHGRU8Tg7Q="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsOffcanvas.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsOffcanvas.html",
-          "hash": "GCVF9oWLYOml7Pwr43jCkZyAg2zZwmP5mumLmoieDYg="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsPopover.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsPopover.html",
-          "hash": "t4FeMP+16QYVmZkx5jVf/LFaSrPdPd9D/r7NAnqaUtw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsScrollSpy.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsScrollSpy.html",
-          "hash": "OlpgVQcZaQ3HIHKN91JSsxB/ri1djdtQXwursYVJfsI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsTab.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsTab.html",
-          "hash": "pqY02Fd880e1+o0u+kYJ77t8RsBB6r3zr/xyun0YqCI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsToast.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsToast.html",
-          "hash": "nN9kv35fJTYN/+Ma0PVLop8jS2tiQ2TSNWvIQGfiw/E="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.BsTooltip.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.BsTooltip.html",
-          "hash": "oGbpj+7B0d7Bw+vYccjIcZRZadqEFVTn3zkCW6MqeYE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.ElementReferenceExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.ElementReferenceExtensions.html",
-          "hash": "F74roGcuqyjgejp02lwrosmOUIxZAU9/xABfW0UEWCk="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.EventHandlers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.EventHandlers.html",
-          "hash": "NqK7RMC12bBcVf95U6W3910hIe4/q4pyZ58BW6Ad6nU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.IBootstrap.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.IBootstrap.html",
-          "hash": "OfCzm6d9MR59rhNsur/jwz+aXVmqymnPAVSzWdxijrU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.ServiceCollectionExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.ServiceCollectionExtensions.html",
-          "hash": "vnTnqDixv/mtrT2pznxlvaYEkT37mN5f9R5RAjm4kng="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/BlazorWerks.Bootstrap.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/BlazorWerks.Bootstrap.html",
-          "hash": "F9TG6kHaQoajfqm85fqQrZr7RcjwFEyY7g9cIPaDXrU="
+          "relative_path": "api/BlazorWerks.ServiceCollectionExtensions.html",
+          "hash": "VYJ9nNqaT600pYeQ1zuj7vV0ObiexNSlVutkQnX55qU="
         }
       },
       "is_incremental": false,
@@ -309,7 +21,247 @@
       "output": {
         ".html": {
           "relative_path": "api/BlazorWerks.Toolbox.html",
-          "hash": "kVjpk6vOnzjZPozO6jX5hWaH+LvAQ59TqG0X/DG6Pyc="
+          "hash": "WGu/tvUzVrMGi47jrr/AyKjXwknurzro7teD0S9RQZ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.Bootstrap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.Bootstrap.html",
+          "hash": "GMSIUiVYwcZc2oGZPKjLv2H2VzQoqGJ6h4OUrCZLQFA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.BootstrapEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.BootstrapEventArgs.html",
+          "hash": "8XooFftt9K/kLGB2tVUhkrXNBFW1Q8HyQkzvAta19tw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.BootstrapEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.BootstrapEvents.html",
+          "hash": "VE0KZFqB3LsxFf67AIYUj/SRVxvK1T9TWzynx+Cf3aY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.BsAlert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.BsAlert.html",
+          "hash": "nX3Xx2+aQr3l5Dd0stEUGms5CgejWQEKKLO9aL3JGHY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.BsButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.BsButton.html",
+          "hash": "ve56G0zoug8TauaIfc84YN0yVSIaPp1709C/bGFvJWA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.BsCarousel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.BsCarousel.html",
+          "hash": "rV8sXA7T8TAOIWEPqKvI/k8AwQps1+FnJ5dzBSRcZs0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.BsCollapse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.BsCollapse.html",
+          "hash": "Xl3UEZSq9i7oAl3Yel6h8BzQU0XRc8lJb7F7UWMDrnw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.BsComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.BsComponent.html",
+          "hash": "F6xOYdMxGYy0zZHm7QcUbSFhSYVsG4it48JLQ/JbEAw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.BsDropdown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.BsDropdown.html",
+          "hash": "kn+RuZkZ3ilrc7kgKWtV1SalU3yX5ps/Zg5LcgBVxVo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.BsModal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.BsModal.html",
+          "hash": "KWvvS9Ph4PgJgjIlrTecwiw6qKvdB8HC1UhHp85jjpw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.BsOffcanvas.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.BsOffcanvas.html",
+          "hash": "CFAi15XY0xMe0pnNWOo8zUGHmp64rrb7NPt5+M4ckIU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.BsPopover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.BsPopover.html",
+          "hash": "0G6eap0N59+zqAEV1f6HQhpZyeanxJqUJASUl24GMSU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.BsScrollSpy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.BsScrollSpy.html",
+          "hash": "dOz6VvdyVRFB2ITwnSFl9p73ZEjwqcejyDMydcQ5ewM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.BsTab.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.BsTab.html",
+          "hash": "t/fs5mDvK24oWPxJFPKZvjYkJJ92ndebtOxjrW/ymPk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.BsToast.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.BsToast.html",
+          "hash": "IVMbdF17mK/70etSP9jy4Ua5oB+28sDJmTctA/8CU2M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.BsTooltip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.BsTooltip.html",
+          "hash": "Fgs6k0uGfBs/psWslQQ5islRPGoIM7sYr+vATeFGGhU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.EventHandlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.EventHandlers.html",
+          "hash": "KOpyL7iNnglgtQni81UamUur87zQhZ38yfY7T92oWO0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.IBootstrap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.IBootstrap.html",
+          "hash": "FJi6HSGYUIsHfdukDfXLLH9nQUQydJNI4UeeELC+Vhg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.ServiceCollectionExtensions.html",
+          "hash": "fUSAxWJ3F/Z/bID0Xavh0iuRfGQG8dSZnIzxup3ondo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/BlazorWerks.Twitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlazorWerks.Twitter.html",
+          "hash": "TJza0Yd7tTmFFZE2OHoLHF0eB2SRtkQVyMTmlIdC91c="
         }
       },
       "is_incremental": false,
@@ -321,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BlazorWerks.WebStorage.EventHandlers.html",
-          "hash": "djOeLjSAoDvy+EBVEXwOhPGAwfLfMr8hzqZMjbQTDTI="
+          "hash": "MuE5LyU1FIBDM0a1AyVcUXnN/CkcuB7+cOm1dQDOJ3A="
         }
       },
       "is_incremental": false,
@@ -333,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BlazorWerks.WebStorage.ILocalStorage.html",
-          "hash": "ccccW5ESqFmEbgE2VooM/5wqFle3A2U3HE1/BENJD0Q="
+          "hash": "DI+/fpNgiTGLp7zZNiMixAgjIzXrPEYFll4szLIyMYc="
         }
       },
       "is_incremental": false,
@@ -345,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BlazorWerks.WebStorage.ISessionStorage.html",
-          "hash": "LDVBq6naP898n+KTM6bH0tfLwBPCci18EJHhs/gSazg="
+          "hash": "sSTDsF4jgMgC8R0q+jyX+evBMqp5NXmbuFBhQFq0vBk="
         }
       },
       "is_incremental": false,
@@ -357,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BlazorWerks.WebStorage.LocalStorage.html",
-          "hash": "2i2SMnbdw/pMC7cpF2NUL0ugcZiRI56IEpMiPkBXXB8="
+          "hash": "h5RNrY+c47LelPCjPV62sdeRJJpfL+PlIghd7vOlcSc="
         }
       },
       "is_incremental": false,
@@ -369,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BlazorWerks.WebStorage.ServiceCollectionExtensions.html",
-          "hash": "8ZggyPWbyFiYYC20F8hDM4caakD0iKw4uzxhg+e/h7M="
+          "hash": "zUFVw+7vqIkTitTUQVQiKIenulhLr7LfNdZQwizJ0+k="
         }
       },
       "is_incremental": false,
@@ -381,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BlazorWerks.WebStorage.SessionStorage.html",
-          "hash": "Y4DmoMZ2NcxaDXiM2p/VZYeNfjlxntewKk6tjKiOo54="
+          "hash": "y/h/2BV7urgRJWy3TkmTmuO9fXcL2H6SKdbqm00aWYA="
         }
       },
       "is_incremental": false,
@@ -393,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BlazorWerks.WebStorage.StorageEventArgs.html",
-          "hash": "trUfwG+bcojxCdAVZlgRWk45/ztP4q2gShNe9B4PGRc="
+          "hash": "JVJpBvAWoaUuSt8U1VJ6MAVbcWKC62QBB4/V2rk+pn0="
         }
       },
       "is_incremental": false,
@@ -405,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BlazorWerks.WebStorage.html",
-          "hash": "izx6+oAJYRWdnO5+skgaSYiiNm7FeQp6JKVFQIKGZ8I="
+          "hash": "0Qh7nXgao495t676PxSMoznVH96bjzORxQ86xqqHEgE="
         }
       },
       "is_incremental": false,
@@ -417,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/BlazorWerks.html",
-          "hash": "vWylvulESC32ZKdO/kHlHXU7Lp6lMRNzZDWixdtwOH8="
+          "hash": "AziKag6QMAihNA7bfeeLbPOA7btTy2qK8MClOL3gjoc="
         }
       },
       "is_incremental": false,
@@ -429,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "+kG2MM0sXlgFNGXYCVy2FUlCcqW3FhyygRuPNZvkOtg="
+          "hash": "/zNB++yawA+anq7Ha6z8Iad8JPdLkFkNji9LHGXS3UY="
         }
       },
       "is_incremental": false,
@@ -535,7 +487,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 35,
+          "total_file_count": 31,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

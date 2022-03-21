@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using BlazorWerks.Bootstrap;
-using BlazorWerks.WebStorage;
+using BlazorWerks;
 using BlazorWerks.Test;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
@@ -10,7 +9,7 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
-builder.Services.AddBootstrapTools();
-builder.Services.AddWebStorageTools();
+builder.Services.AddBlazorWerks();
+
 
 await builder.Build().RunAsync();

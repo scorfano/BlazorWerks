@@ -11,7 +11,7 @@ namespace BlazorWerks.WebStorage
         [ActivatorUtilitiesConstructor]
         public SessionStorage(IJSRuntime jsr) : base(jsr)
         {
-            STORAGE = "BlazorTools.WebStorage.sessionStorage";
+            STORAGE = "BlazorWerks.WebStorage.sessionStorage";
         }
     }
 }

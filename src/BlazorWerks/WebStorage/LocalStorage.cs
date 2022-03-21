@@ -25,7 +25,7 @@ namespace BlazorWerks.WebStorage
     {
         // STORAGE = window.localStorage or window.sessionStorage
 
-        protected string STORAGE { get; set; } = "BlazorTools.WebStorage.localStorage";
+        protected string STORAGE { get; set; } = "BlazorWerks.WebStorage.localStorage";
 
         protected readonly IJSRuntime jsRuntime;
 
